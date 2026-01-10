@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # Service for running the Optuna Optimization and Training
+  trainer:
+    build: .
+    container_name: cancer_trainer
+    volumes:
+      - .:/app
+      - ./data:/app/data
+      - ./model_export:/app/model_export
+    command: python train_suite.py
+
+  # Service for running Inference/Predictions
+  predictor:
+    build: .
+    container_name: cancer_predictor
+    volumes:
+      - .:/app
+      - ./data:/app/data
+      - ./model_export:/app/model_export
+      - ./forecasts:/app/forecasts
+    command: python predict.py
+
+# Optional: Add GPU support if using NVIDIA Docker
+#     deploy:
+#       resources:
+#         reservations:
+#           devices:
+#             - driver: nvidia
+#               count: 1
+#               capabilities: [gpu]
