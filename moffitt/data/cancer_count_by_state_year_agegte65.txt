@@ -1,0 +1,1587 @@
+"Notes"	"Leading Cancer Sites"	"Leading Cancer Sites Code"	"States"	"States Code"	"Year"	"Year Code"	"Sex"	"Sex Code"	Count
+	"Breast"	"26000"	"Alabama"	"01"	"2014"	"2014"	"Female"	"F"	1676
+	"Breast"	"26000"	"Alabama"	"01"	"2014"	"2014"	"Male"	"M"	23
+	"Breast"	"26000"	"Alabama"	"01"	"2015"	"2015"	"Female"	"F"	1772
+	"Breast"	"26000"	"Alabama"	"01"	"2015"	"2015"	"Male"	"M"	27
+	"Breast"	"26000"	"Alabama"	"01"	"2016"	"2016"	"Female"	"F"	1844
+	"Breast"	"26000"	"Alabama"	"01"	"2016"	"2016"	"Male"	"M"	34
+	"Breast"	"26000"	"Alabama"	"01"	"2017"	"2017"	"Female"	"F"	1768
+	"Breast"	"26000"	"Alabama"	"01"	"2017"	"2017"	"Male"	"M"	16
+	"Breast"	"26000"	"Alabama"	"01"	"2018"	"2018"	"Female"	"F"	1885
+	"Breast"	"26000"	"Alabama"	"01"	"2018"	"2018"	"Male"	"M"	27
+	"Breast"	"26000"	"Alaska"	"02"	"2014"	"2014"	"Female"	"F"	164
+	"Breast"	"26000"	"Alaska"	"02"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Alaska"	"02"	"2015"	"2015"	"Female"	"F"	161
+	"Breast"	"26000"	"Alaska"	"02"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Alaska"	"02"	"2016"	"2016"	"Female"	"F"	161
+	"Breast"	"26000"	"Alaska"	"02"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Alaska"	"02"	"2017"	"2017"	"Female"	"F"	144
+	"Breast"	"26000"	"Alaska"	"02"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Alaska"	"02"	"2018"	"2018"	"Female"	"F"	172
+	"Breast"	"26000"	"Alaska"	"02"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Arizona"	"04"	"2014"	"2014"	"Female"	"F"	2391
+	"Breast"	"26000"	"Arizona"	"04"	"2014"	"2014"	"Male"	"M"	19
+	"Breast"	"26000"	"Arizona"	"04"	"2015"	"2015"	"Female"	"F"	2328
+	"Breast"	"26000"	"Arizona"	"04"	"2015"	"2015"	"Male"	"M"	20
+	"Breast"	"26000"	"Arizona"	"04"	"2016"	"2016"	"Female"	"F"	2495
+	"Breast"	"26000"	"Arizona"	"04"	"2016"	"2016"	"Male"	"M"	30
+	"Breast"	"26000"	"Arizona"	"04"	"2017"	"2017"	"Female"	"F"	2500
+	"Breast"	"26000"	"Arizona"	"04"	"2017"	"2017"	"Male"	"M"	37
+	"Breast"	"26000"	"Arizona"	"04"	"2018"	"2018"	"Female"	"F"	2652
+	"Breast"	"26000"	"Arizona"	"04"	"2018"	"2018"	"Male"	"M"	32
+	"Breast"	"26000"	"Arkansas"	"05"	"2014"	"2014"	"Female"	"F"	1022
+	"Breast"	"26000"	"Arkansas"	"05"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Arkansas"	"05"	"2015"	"2015"	"Female"	"F"	1048
+	"Breast"	"26000"	"Arkansas"	"05"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Arkansas"	"05"	"2016"	"2016"	"Female"	"F"	1125
+	"Breast"	"26000"	"Arkansas"	"05"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Arkansas"	"05"	"2017"	"2017"	"Female"	"F"	1077
+	"Breast"	"26000"	"Arkansas"	"05"	"2017"	"2017"	"Male"	"M"	16
+	"Breast"	"26000"	"Arkansas"	"05"	"2018"	"2018"	"Female"	"F"	1163
+	"Breast"	"26000"	"Arkansas"	"05"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"California"	"06"	"2014"	"2014"	"Female"	"F"	11303
+	"Breast"	"26000"	"California"	"06"	"2014"	"2014"	"Male"	"M"	120
+	"Breast"	"26000"	"California"	"06"	"2015"	"2015"	"Female"	"F"	11784
+	"Breast"	"26000"	"California"	"06"	"2015"	"2015"	"Male"	"M"	130
+	"Breast"	"26000"	"California"	"06"	"2016"	"2016"	"Female"	"F"	11924
+	"Breast"	"26000"	"California"	"06"	"2016"	"2016"	"Male"	"M"	112
+	"Breast"	"26000"	"California"	"06"	"2017"	"2017"	"Female"	"F"	12221
+	"Breast"	"26000"	"California"	"06"	"2017"	"2017"	"Male"	"M"	112
+	"Breast"	"26000"	"California"	"06"	"2018"	"2018"	"Female"	"F"	12777
+	"Breast"	"26000"	"California"	"06"	"2018"	"2018"	"Male"	"M"	134
+	"Breast"	"26000"	"Colorado"	"08"	"2014"	"2014"	"Female"	"F"	1592
+	"Breast"	"26000"	"Colorado"	"08"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Colorado"	"08"	"2015"	"2015"	"Female"	"F"	1604
+	"Breast"	"26000"	"Colorado"	"08"	"2015"	"2015"	"Male"	"M"	21
+	"Breast"	"26000"	"Colorado"	"08"	"2016"	"2016"	"Female"	"F"	1733
+	"Breast"	"26000"	"Colorado"	"08"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Colorado"	"08"	"2017"	"2017"	"Female"	"F"	1917
+	"Breast"	"26000"	"Colorado"	"08"	"2017"	"2017"	"Male"	"M"	20
+	"Breast"	"26000"	"Colorado"	"08"	"2018"	"2018"	"Female"	"F"	1915
+	"Breast"	"26000"	"Colorado"	"08"	"2018"	"2018"	"Male"	"M"	21
+	"Breast"	"26000"	"Connecticut"	"09"	"2014"	"2014"	"Female"	"F"	1440
+	"Breast"	"26000"	"Connecticut"	"09"	"2014"	"2014"	"Male"	"M"	20
+	"Breast"	"26000"	"Connecticut"	"09"	"2015"	"2015"	"Female"	"F"	1491
+	"Breast"	"26000"	"Connecticut"	"09"	"2015"	"2015"	"Male"	"M"	20
+	"Breast"	"26000"	"Connecticut"	"09"	"2016"	"2016"	"Female"	"F"	1508
+	"Breast"	"26000"	"Connecticut"	"09"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Connecticut"	"09"	"2017"	"2017"	"Female"	"F"	1527
+	"Breast"	"26000"	"Connecticut"	"09"	"2017"	"2017"	"Male"	"M"	20
+	"Breast"	"26000"	"Connecticut"	"09"	"2018"	"2018"	"Female"	"F"	1517
+	"Breast"	"26000"	"Connecticut"	"09"	"2018"	"2018"	"Male"	"M"	26
+	"Breast"	"26000"	"Delaware"	"10"	"2014"	"2014"	"Female"	"F"	415
+	"Breast"	"26000"	"Delaware"	"10"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Delaware"	"10"	"2015"	"2015"	"Female"	"F"	404
+	"Breast"	"26000"	"Delaware"	"10"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Delaware"	"10"	"2016"	"2016"	"Female"	"F"	422
+	"Breast"	"26000"	"Delaware"	"10"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Delaware"	"10"	"2017"	"2017"	"Female"	"F"	382
+	"Breast"	"26000"	"Delaware"	"10"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Delaware"	"10"	"2018"	"2018"	"Female"	"F"	453
+	"Breast"	"26000"	"Delaware"	"10"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"District of Columbia"	"11"	"2014"	"2014"	"Female"	"F"	247
+	"Breast"	"26000"	"District of Columbia"	"11"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"District of Columbia"	"11"	"2015"	"2015"	"Female"	"F"	209
+	"Breast"	"26000"	"District of Columbia"	"11"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"District of Columbia"	"11"	"2016"	"2016"	"Female"	"F"	171
+	"Breast"	"26000"	"District of Columbia"	"11"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"District of Columbia"	"11"	"2017"	"2017"	"Female"	"F"	219
+	"Breast"	"26000"	"District of Columbia"	"11"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"District of Columbia"	"11"	"2018"	"2018"	"Female"	"F"	251
+	"Breast"	"26000"	"District of Columbia"	"11"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Florida"	"12"	"2014"	"2014"	"Female"	"F"	7930
+	"Breast"	"26000"	"Florida"	"12"	"2014"	"2014"	"Male"	"M"	103
+	"Breast"	"26000"	"Florida"	"12"	"2015"	"2015"	"Female"	"F"	8366
+	"Breast"	"26000"	"Florida"	"12"	"2015"	"2015"	"Male"	"M"	116
+	"Breast"	"26000"	"Florida"	"12"	"2016"	"2016"	"Female"	"F"	8781
+	"Breast"	"26000"	"Florida"	"12"	"2016"	"2016"	"Male"	"M"	111
+	"Breast"	"26000"	"Florida"	"12"	"2017"	"2017"	"Female"	"F"	9028
+	"Breast"	"26000"	"Florida"	"12"	"2017"	"2017"	"Male"	"M"	108
+	"Breast"	"26000"	"Florida"	"12"	"2018"	"2018"	"Female"	"F"	9210
+	"Breast"	"26000"	"Florida"	"12"	"2018"	"2018"	"Male"	"M"	109
+	"Breast"	"26000"	"Georgia"	"13"	"2014"	"2014"	"Female"	"F"	2955
+	"Breast"	"26000"	"Georgia"	"13"	"2014"	"2014"	"Male"	"M"	36
+	"Breast"	"26000"	"Georgia"	"13"	"2015"	"2015"	"Female"	"F"	3182
+	"Breast"	"26000"	"Georgia"	"13"	"2015"	"2015"	"Male"	"M"	39
+	"Breast"	"26000"	"Georgia"	"13"	"2016"	"2016"	"Female"	"F"	3370
+	"Breast"	"26000"	"Georgia"	"13"	"2016"	"2016"	"Male"	"M"	38
+	"Breast"	"26000"	"Georgia"	"13"	"2017"	"2017"	"Female"	"F"	3434
+	"Breast"	"26000"	"Georgia"	"13"	"2017"	"2017"	"Male"	"M"	45
+	"Breast"	"26000"	"Georgia"	"13"	"2018"	"2018"	"Female"	"F"	3709
+	"Breast"	"26000"	"Georgia"	"13"	"2018"	"2018"	"Male"	"M"	37
+	"Breast"	"26000"	"Hawaii"	"15"	"2014"	"2014"	"Female"	"F"	494
+	"Breast"	"26000"	"Hawaii"	"15"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Hawaii"	"15"	"2015"	"2015"	"Female"	"F"	527
+	"Breast"	"26000"	"Hawaii"	"15"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Hawaii"	"15"	"2016"	"2016"	"Female"	"F"	570
+	"Breast"	"26000"	"Hawaii"	"15"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Hawaii"	"15"	"2017"	"2017"	"Female"	"F"	601
+	"Breast"	"26000"	"Hawaii"	"15"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Hawaii"	"15"	"2018"	"2018"	"Female"	"F"	660
+	"Breast"	"26000"	"Hawaii"	"15"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Idaho"	"16"	"2014"	"2014"	"Female"	"F"	533
+	"Breast"	"26000"	"Idaho"	"16"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Idaho"	"16"	"2015"	"2015"	"Female"	"F"	572
+	"Breast"	"26000"	"Idaho"	"16"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Idaho"	"16"	"2016"	"2016"	"Female"	"F"	601
+	"Breast"	"26000"	"Idaho"	"16"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Idaho"	"16"	"2017"	"2017"	"Female"	"F"	649
+	"Breast"	"26000"	"Idaho"	"16"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Idaho"	"16"	"2018"	"2018"	"Female"	"F"	661
+	"Breast"	"26000"	"Idaho"	"16"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Illinois"	"17"	"2014"	"2014"	"Female"	"F"	4546
+	"Breast"	"26000"	"Illinois"	"17"	"2014"	"2014"	"Male"	"M"	46
+	"Breast"	"26000"	"Illinois"	"17"	"2015"	"2015"	"Female"	"F"	4668
+	"Breast"	"26000"	"Illinois"	"17"	"2015"	"2015"	"Male"	"M"	47
+	"Breast"	"26000"	"Illinois"	"17"	"2016"	"2016"	"Female"	"F"	4725
+	"Breast"	"26000"	"Illinois"	"17"	"2016"	"2016"	"Male"	"M"	66
+	"Breast"	"26000"	"Illinois"	"17"	"2017"	"2017"	"Female"	"F"	4696
+	"Breast"	"26000"	"Illinois"	"17"	"2017"	"2017"	"Male"	"M"	61
+	"Breast"	"26000"	"Illinois"	"17"	"2018"	"2018"	"Female"	"F"	4933
+	"Breast"	"26000"	"Illinois"	"17"	"2018"	"2018"	"Male"	"M"	57
+	"Breast"	"26000"	"Indiana"	"18"	"2014"	"2014"	"Female"	"F"	2285
+	"Breast"	"26000"	"Indiana"	"18"	"2014"	"2014"	"Male"	"M"	27
+	"Breast"	"26000"	"Indiana"	"18"	"2015"	"2015"	"Female"	"F"	2388
+	"Breast"	"26000"	"Indiana"	"18"	"2015"	"2015"	"Male"	"M"	22
+	"Breast"	"26000"	"Indiana"	"18"	"2016"	"2016"	"Female"	"F"	2324
+	"Breast"	"26000"	"Indiana"	"18"	"2016"	"2016"	"Male"	"M"	32
+	"Breast"	"26000"	"Indiana"	"18"	"2017"	"2017"	"Female"	"F"	2424
+	"Breast"	"26000"	"Indiana"	"18"	"2017"	"2017"	"Male"	"M"	22
+	"Breast"	"26000"	"Indiana"	"18"	"2018"	"2018"	"Female"	"F"	2494
+	"Breast"	"26000"	"Indiana"	"18"	"2018"	"2018"	"Male"	"M"	22
+	"Breast"	"26000"	"Iowa"	"19"	"2014"	"2014"	"Female"	"F"	1168
+	"Breast"	"26000"	"Iowa"	"19"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Iowa"	"19"	"2015"	"2015"	"Female"	"F"	1197
+	"Breast"	"26000"	"Iowa"	"19"	"2015"	"2015"	"Male"	"M"	17
+	"Breast"	"26000"	"Iowa"	"19"	"2016"	"2016"	"Female"	"F"	1242
+	"Breast"	"26000"	"Iowa"	"19"	"2016"	"2016"	"Male"	"M"	17
+	"Breast"	"26000"	"Iowa"	"19"	"2017"	"2017"	"Female"	"F"	1375
+	"Breast"	"26000"	"Iowa"	"19"	"2017"	"2017"	"Male"	"M"	19
+	"Breast"	"26000"	"Iowa"	"19"	"2018"	"2018"	"Female"	"F"	1295
+	"Breast"	"26000"	"Iowa"	"19"	"2018"	"2018"	"Male"	"M"	21
+	"Breast"	"26000"	"Kansas"	"20"	"2014"	"2014"	"Female"	"F"	999
+	"Breast"	"26000"	"Kansas"	"20"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kansas"	"20"	"2015"	"2015"	"Female"	"F"	1088
+	"Breast"	"26000"	"Kansas"	"20"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kansas"	"20"	"2016"	"2016"	"Female"	"F"	1071
+	"Breast"	"26000"	"Kansas"	"20"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kansas"	"20"	"2017"	"2017"	"Female"	"F"	1086
+	"Breast"	"26000"	"Kansas"	"20"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kansas"	"20"	"2018"	"2018"	"Female"	"F"	1159
+	"Breast"	"26000"	"Kansas"	"20"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kentucky"	"21"	"2014"	"2014"	"Female"	"F"	1589
+	"Breast"	"26000"	"Kentucky"	"21"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kentucky"	"21"	"2015"	"2015"	"Female"	"F"	1636
+	"Breast"	"26000"	"Kentucky"	"21"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kentucky"	"21"	"2016"	"2016"	"Female"	"F"	1633
+	"Breast"	"26000"	"Kentucky"	"21"	"2016"	"2016"	"Male"	"M"	17
+	"Breast"	"26000"	"Kentucky"	"21"	"2017"	"2017"	"Female"	"F"	1736
+	"Breast"	"26000"	"Kentucky"	"21"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Kentucky"	"21"	"2018"	"2018"	"Female"	"F"	1845
+	"Breast"	"26000"	"Kentucky"	"21"	"2018"	"2018"	"Male"	"M"	16
+	"Breast"	"26000"	"Louisiana"	"22"	"2014"	"2014"	"Female"	"F"	1435
+	"Breast"	"26000"	"Louisiana"	"22"	"2014"	"2014"	"Male"	"M"	24
+	"Breast"	"26000"	"Louisiana"	"22"	"2015"	"2015"	"Female"	"F"	1621
+	"Breast"	"26000"	"Louisiana"	"22"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Louisiana"	"22"	"2016"	"2016"	"Female"	"F"	1617
+	"Breast"	"26000"	"Louisiana"	"22"	"2016"	"2016"	"Male"	"M"	33
+	"Breast"	"26000"	"Louisiana"	"22"	"2017"	"2017"	"Female"	"F"	1690
+	"Breast"	"26000"	"Louisiana"	"22"	"2017"	"2017"	"Male"	"M"	16
+	"Breast"	"26000"	"Louisiana"	"22"	"2018"	"2018"	"Female"	"F"	1781
+	"Breast"	"26000"	"Louisiana"	"22"	"2018"	"2018"	"Male"	"M"	22
+	"Breast"	"26000"	"Maine"	"23"	"2014"	"2014"	"Female"	"F"	582
+	"Breast"	"26000"	"Maine"	"23"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Maine"	"23"	"2015"	"2015"	"Female"	"F"	575
+	"Breast"	"26000"	"Maine"	"23"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Maine"	"23"	"2016"	"2016"	"Female"	"F"	581
+	"Breast"	"26000"	"Maine"	"23"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Maine"	"23"	"2017"	"2017"	"Female"	"F"	640
+	"Breast"	"26000"	"Maine"	"23"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Maine"	"23"	"2018"	"2018"	"Female"	"F"	622
+	"Breast"	"26000"	"Maine"	"23"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Maryland"	"24"	"2014"	"2014"	"Female"	"F"	2029
+	"Breast"	"26000"	"Maryland"	"24"	"2014"	"2014"	"Male"	"M"	24
+	"Breast"	"26000"	"Maryland"	"24"	"2015"	"2015"	"Female"	"F"	2075
+	"Breast"	"26000"	"Maryland"	"24"	"2015"	"2015"	"Male"	"M"	26
+	"Breast"	"26000"	"Maryland"	"24"	"2016"	"2016"	"Female"	"F"	2106
+	"Breast"	"26000"	"Maryland"	"24"	"2016"	"2016"	"Male"	"M"	38
+	"Breast"	"26000"	"Maryland"	"24"	"2017"	"2017"	"Female"	"F"	2249
+	"Breast"	"26000"	"Maryland"	"24"	"2017"	"2017"	"Male"	"M"	30
+	"Breast"	"26000"	"Maryland"	"24"	"2018"	"2018"	"Female"	"F"	2250
+	"Breast"	"26000"	"Maryland"	"24"	"2018"	"2018"	"Male"	"M"	31
+	"Breast"	"26000"	"Massachusetts"	"25"	"2014"	"2014"	"Female"	"F"	2680
+	"Breast"	"26000"	"Massachusetts"	"25"	"2014"	"2014"	"Male"	"M"	27
+	"Breast"	"26000"	"Massachusetts"	"25"	"2015"	"2015"	"Female"	"F"	2663
+	"Breast"	"26000"	"Massachusetts"	"25"	"2015"	"2015"	"Male"	"M"	25
+	"Breast"	"26000"	"Massachusetts"	"25"	"2016"	"2016"	"Female"	"F"	2804
+	"Breast"	"26000"	"Massachusetts"	"25"	"2016"	"2016"	"Male"	"M"	30
+	"Breast"	"26000"	"Massachusetts"	"25"	"2017"	"2017"	"Female"	"F"	2766
+	"Breast"	"26000"	"Massachusetts"	"25"	"2017"	"2017"	"Male"	"M"	45
+	"Breast"	"26000"	"Massachusetts"	"25"	"2018"	"2018"	"Female"	"F"	2596
+	"Breast"	"26000"	"Massachusetts"	"25"	"2018"	"2018"	"Male"	"M"	33
+	"Breast"	"26000"	"Michigan"	"26"	"2014"	"2014"	"Female"	"F"	3367
+	"Breast"	"26000"	"Michigan"	"26"	"2014"	"2014"	"Male"	"M"	55
+	"Breast"	"26000"	"Michigan"	"26"	"2015"	"2015"	"Female"	"F"	3602
+	"Breast"	"26000"	"Michigan"	"26"	"2015"	"2015"	"Male"	"M"	48
+	"Breast"	"26000"	"Michigan"	"26"	"2016"	"2016"	"Female"	"F"	3761
+	"Breast"	"26000"	"Michigan"	"26"	"2016"	"2016"	"Male"	"M"	52
+	"Breast"	"26000"	"Michigan"	"26"	"2017"	"2017"	"Female"	"F"	3706
+	"Breast"	"26000"	"Michigan"	"26"	"2017"	"2017"	"Male"	"M"	54
+	"Breast"	"26000"	"Michigan"	"26"	"2018"	"2018"	"Female"	"F"	4077
+	"Breast"	"26000"	"Michigan"	"26"	"2018"	"2018"	"Male"	"M"	43
+	"Breast"	"26000"	"Minnesota"	"27"	"2014"	"2014"	"Female"	"F"	1898
+	"Breast"	"26000"	"Minnesota"	"27"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Minnesota"	"27"	"2015"	"2015"	"Female"	"F"	2036
+	"Breast"	"26000"	"Minnesota"	"27"	"2015"	"2015"	"Male"	"M"	23
+	"Breast"	"26000"	"Minnesota"	"27"	"2016"	"2016"	"Female"	"F"	2028
+	"Breast"	"26000"	"Minnesota"	"27"	"2016"	"2016"	"Male"	"M"	16
+	"Breast"	"26000"	"Minnesota"	"27"	"2017"	"2017"	"Female"	"F"	2242
+	"Breast"	"26000"	"Minnesota"	"27"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Minnesota"	"27"	"2018"	"2018"	"Female"	"F"	2121
+	"Breast"	"26000"	"Minnesota"	"27"	"2018"	"2018"	"Male"	"M"	21
+	"Breast"	"26000"	"Mississippi"	"28"	"2014"	"2014"	"Female"	"F"	889
+	"Breast"	"26000"	"Mississippi"	"28"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Mississippi"	"28"	"2015"	"2015"	"Female"	"F"	1002
+	"Breast"	"26000"	"Mississippi"	"28"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Mississippi"	"28"	"2016"	"2016"	"Female"	"F"	1016
+	"Breast"	"26000"	"Mississippi"	"28"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Mississippi"	"28"	"2017"	"2017"	"Female"	"F"	1062
+	"Breast"	"26000"	"Mississippi"	"28"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Mississippi"	"28"	"2018"	"2018"	"Female"	"F"	1110
+	"Breast"	"26000"	"Mississippi"	"28"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Missouri"	"29"	"2014"	"2014"	"Female"	"F"	2284
+	"Breast"	"26000"	"Missouri"	"29"	"2014"	"2014"	"Male"	"M"	18
+	"Breast"	"26000"	"Missouri"	"29"	"2015"	"2015"	"Female"	"F"	2358
+	"Breast"	"26000"	"Missouri"	"29"	"2015"	"2015"	"Male"	"M"	32
+	"Breast"	"26000"	"Missouri"	"29"	"2016"	"2016"	"Female"	"F"	2406
+	"Breast"	"26000"	"Missouri"	"29"	"2016"	"2016"	"Male"	"M"	23
+	"Breast"	"26000"	"Missouri"	"29"	"2017"	"2017"	"Female"	"F"	2468
+	"Breast"	"26000"	"Missouri"	"29"	"2017"	"2017"	"Male"	"M"	29
+	"Breast"	"26000"	"Missouri"	"29"	"2018"	"2018"	"Female"	"F"	2406
+	"Breast"	"26000"	"Missouri"	"29"	"2018"	"2018"	"Male"	"M"	30
+	"Breast"	"26000"	"Montana"	"30"	"2014"	"2014"	"Female"	"F"	397
+	"Breast"	"26000"	"Montana"	"30"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Montana"	"30"	"2015"	"2015"	"Female"	"F"	449
+	"Breast"	"26000"	"Montana"	"30"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Montana"	"30"	"2016"	"2016"	"Female"	"F"	421
+	"Breast"	"26000"	"Montana"	"30"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Montana"	"30"	"2017"	"2017"	"Female"	"F"	499
+	"Breast"	"26000"	"Montana"	"30"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Montana"	"30"	"2018"	"2018"	"Female"	"F"	479
+	"Breast"	"26000"	"Montana"	"30"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nebraska"	"31"	"2014"	"2014"	"Female"	"F"	643
+	"Breast"	"26000"	"Nebraska"	"31"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nebraska"	"31"	"2015"	"2015"	"Female"	"F"	709
+	"Breast"	"26000"	"Nebraska"	"31"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nebraska"	"31"	"2016"	"2016"	"Female"	"F"	700
+	"Breast"	"26000"	"Nebraska"	"31"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nebraska"	"31"	"2017"	"2017"	"Female"	"F"	693
+	"Breast"	"26000"	"Nebraska"	"31"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nebraska"	"31"	"2018"	"2018"	"Female"	"F"	772
+	"Breast"	"26000"	"Nebraska"	"31"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nevada"	"32"	"2014"	"2014"	"Female"	"F"	829
+	"Breast"	"26000"	"Nevada"	"32"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nevada"	"32"	"2015"	"2015"	"Female"	"F"	830
+	"Breast"	"26000"	"Nevada"	"32"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nevada"	"32"	"2016"	"2016"	"Female"	"F"	935
+	"Breast"	"26000"	"Nevada"	"32"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Nevada"	"32"	"2017"	"2017"	"Female"	"F"	1031
+	"Breast"	"26000"	"Nevada"	"32"	"2017"	"2017"	"Male"	"M"	17
+	"Breast"	"26000"	"Nevada"	"32"	"2018"	"2018"	"Female"	"F"	Missing
+	"Breast"	"26000"	"Nevada"	"32"	"2018"	"2018"	"Male"	"M"	Missing
+	"Breast"	"26000"	"New Hampshire"	"33"	"2014"	"2014"	"Female"	"F"	556
+	"Breast"	"26000"	"New Hampshire"	"33"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Hampshire"	"33"	"2015"	"2015"	"Female"	"F"	593
+	"Breast"	"26000"	"New Hampshire"	"33"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Hampshire"	"33"	"2016"	"2016"	"Female"	"F"	599
+	"Breast"	"26000"	"New Hampshire"	"33"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Hampshire"	"33"	"2017"	"2017"	"Female"	"F"	578
+	"Breast"	"26000"	"New Hampshire"	"33"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Hampshire"	"33"	"2018"	"2018"	"Female"	"F"	603
+	"Breast"	"26000"	"New Hampshire"	"33"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Jersey"	"34"	"2014"	"2014"	"Female"	"F"	3386
+	"Breast"	"26000"	"New Jersey"	"34"	"2014"	"2014"	"Male"	"M"	49
+	"Breast"	"26000"	"New Jersey"	"34"	"2015"	"2015"	"Female"	"F"	3452
+	"Breast"	"26000"	"New Jersey"	"34"	"2015"	"2015"	"Male"	"M"	39
+	"Breast"	"26000"	"New Jersey"	"34"	"2016"	"2016"	"Female"	"F"	3486
+	"Breast"	"26000"	"New Jersey"	"34"	"2016"	"2016"	"Male"	"M"	41
+	"Breast"	"26000"	"New Jersey"	"34"	"2017"	"2017"	"Female"	"F"	3635
+	"Breast"	"26000"	"New Jersey"	"34"	"2017"	"2017"	"Male"	"M"	48
+	"Breast"	"26000"	"New Jersey"	"34"	"2018"	"2018"	"Female"	"F"	3655
+	"Breast"	"26000"	"New Jersey"	"34"	"2018"	"2018"	"Male"	"M"	50
+	"Breast"	"26000"	"New Mexico"	"35"	"2014"	"2014"	"Female"	"F"	660
+	"Breast"	"26000"	"New Mexico"	"35"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Mexico"	"35"	"2015"	"2015"	"Female"	"F"	704
+	"Breast"	"26000"	"New Mexico"	"35"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Mexico"	"35"	"2016"	"2016"	"Female"	"F"	694
+	"Breast"	"26000"	"New Mexico"	"35"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New Mexico"	"35"	"2017"	"2017"	"Female"	"F"	719
+	"Breast"	"26000"	"New Mexico"	"35"	"2017"	"2017"	"Male"	"M"	18
+	"Breast"	"26000"	"New Mexico"	"35"	"2018"	"2018"	"Female"	"F"	722
+	"Breast"	"26000"	"New Mexico"	"35"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"New York"	"36"	"2014"	"2014"	"Female"	"F"	7195
+	"Breast"	"26000"	"New York"	"36"	"2014"	"2014"	"Male"	"M"	79
+	"Breast"	"26000"	"New York"	"36"	"2015"	"2015"	"Female"	"F"	7328
+	"Breast"	"26000"	"New York"	"36"	"2015"	"2015"	"Male"	"M"	113
+	"Breast"	"26000"	"New York"	"36"	"2016"	"2016"	"Female"	"F"	7230
+	"Breast"	"26000"	"New York"	"36"	"2016"	"2016"	"Male"	"M"	83
+	"Breast"	"26000"	"New York"	"36"	"2017"	"2017"	"Female"	"F"	7573
+	"Breast"	"26000"	"New York"	"36"	"2017"	"2017"	"Male"	"M"	93
+	"Breast"	"26000"	"New York"	"36"	"2018"	"2018"	"Female"	"F"	7775
+	"Breast"	"26000"	"New York"	"36"	"2018"	"2018"	"Male"	"M"	113
+	"Breast"	"26000"	"North Carolina"	"37"	"2014"	"2014"	"Female"	"F"	3742
+	"Breast"	"26000"	"North Carolina"	"37"	"2014"	"2014"	"Male"	"M"	39
+	"Breast"	"26000"	"North Carolina"	"37"	"2015"	"2015"	"Female"	"F"	3921
+	"Breast"	"26000"	"North Carolina"	"37"	"2015"	"2015"	"Male"	"M"	44
+	"Breast"	"26000"	"North Carolina"	"37"	"2016"	"2016"	"Female"	"F"	4110
+	"Breast"	"26000"	"North Carolina"	"37"	"2016"	"2016"	"Male"	"M"	38
+	"Breast"	"26000"	"North Carolina"	"37"	"2017"	"2017"	"Female"	"F"	4230
+	"Breast"	"26000"	"North Carolina"	"37"	"2017"	"2017"	"Male"	"M"	36
+	"Breast"	"26000"	"North Carolina"	"37"	"2018"	"2018"	"Female"	"F"	4423
+	"Breast"	"26000"	"North Carolina"	"37"	"2018"	"2018"	"Male"	"M"	44
+	"Breast"	"26000"	"North Dakota"	"38"	"2014"	"2014"	"Female"	"F"	213
+	"Breast"	"26000"	"North Dakota"	"38"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"North Dakota"	"38"	"2015"	"2015"	"Female"	"F"	284
+	"Breast"	"26000"	"North Dakota"	"38"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"North Dakota"	"38"	"2016"	"2016"	"Female"	"F"	269
+	"Breast"	"26000"	"North Dakota"	"38"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"North Dakota"	"38"	"2017"	"2017"	"Female"	"F"	272
+	"Breast"	"26000"	"North Dakota"	"38"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"North Dakota"	"38"	"2018"	"2018"	"Female"	"F"	273
+	"Breast"	"26000"	"North Dakota"	"38"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Ohio"	"39"	"2014"	"2014"	"Female"	"F"	4434
+	"Breast"	"26000"	"Ohio"	"39"	"2014"	"2014"	"Male"	"M"	50
+	"Breast"	"26000"	"Ohio"	"39"	"2015"	"2015"	"Female"	"F"	4618
+	"Breast"	"26000"	"Ohio"	"39"	"2015"	"2015"	"Male"	"M"	45
+	"Breast"	"26000"	"Ohio"	"39"	"2016"	"2016"	"Female"	"F"	4753
+	"Breast"	"26000"	"Ohio"	"39"	"2016"	"2016"	"Male"	"M"	39
+	"Breast"	"26000"	"Ohio"	"39"	"2017"	"2017"	"Female"	"F"	4875
+	"Breast"	"26000"	"Ohio"	"39"	"2017"	"2017"	"Male"	"M"	49
+	"Breast"	"26000"	"Ohio"	"39"	"2018"	"2018"	"Female"	"F"	4953
+	"Breast"	"26000"	"Ohio"	"39"	"2018"	"2018"	"Male"	"M"	46
+	"Breast"	"26000"	"Oklahoma"	"40"	"2014"	"2014"	"Female"	"F"	1299
+	"Breast"	"26000"	"Oklahoma"	"40"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Oklahoma"	"40"	"2015"	"2015"	"Female"	"F"	1390
+	"Breast"	"26000"	"Oklahoma"	"40"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Oklahoma"	"40"	"2016"	"2016"	"Female"	"F"	1391
+	"Breast"	"26000"	"Oklahoma"	"40"	"2016"	"2016"	"Male"	"M"	16
+	"Breast"	"26000"	"Oklahoma"	"40"	"2017"	"2017"	"Female"	"F"	1475
+	"Breast"	"26000"	"Oklahoma"	"40"	"2017"	"2017"	"Male"	"M"	16
+	"Breast"	"26000"	"Oklahoma"	"40"	"2018"	"2018"	"Female"	"F"	1449
+	"Breast"	"26000"	"Oklahoma"	"40"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Oregon"	"41"	"2014"	"2014"	"Female"	"F"	1469
+	"Breast"	"26000"	"Oregon"	"41"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Oregon"	"41"	"2015"	"2015"	"Female"	"F"	1629
+	"Breast"	"26000"	"Oregon"	"41"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Oregon"	"41"	"2016"	"2016"	"Female"	"F"	1579
+	"Breast"	"26000"	"Oregon"	"41"	"2016"	"2016"	"Male"	"M"	16
+	"Breast"	"26000"	"Oregon"	"41"	"2017"	"2017"	"Female"	"F"	1590
+	"Breast"	"26000"	"Oregon"	"41"	"2017"	"2017"	"Male"	"M"	25
+	"Breast"	"26000"	"Oregon"	"41"	"2018"	"2018"	"Female"	"F"	1872
+	"Breast"	"26000"	"Oregon"	"41"	"2018"	"2018"	"Male"	"M"	17
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2014"	"2014"	"Female"	"F"	5388
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2014"	"2014"	"Male"	"M"	68
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2015"	"2015"	"Female"	"F"	5378
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2015"	"2015"	"Male"	"M"	65
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2016"	"2016"	"Female"	"F"	5593
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2016"	"2016"	"Male"	"M"	59
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2017"	"2017"	"Female"	"F"	5523
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2017"	"2017"	"Male"	"M"	69
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2018"	"2018"	"Female"	"F"	5631
+	"Breast"	"26000"	"Pennsylvania"	"42"	"2018"	"2018"	"Male"	"M"	65
+	"Breast"	"26000"	"Rhode Island"	"44"	"2014"	"2014"	"Female"	"F"	401
+	"Breast"	"26000"	"Rhode Island"	"44"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Rhode Island"	"44"	"2015"	"2015"	"Female"	"F"	457
+	"Breast"	"26000"	"Rhode Island"	"44"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Rhode Island"	"44"	"2016"	"2016"	"Female"	"F"	407
+	"Breast"	"26000"	"Rhode Island"	"44"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Rhode Island"	"44"	"2017"	"2017"	"Female"	"F"	473
+	"Breast"	"26000"	"Rhode Island"	"44"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Rhode Island"	"44"	"2018"	"2018"	"Female"	"F"	503
+	"Breast"	"26000"	"Rhode Island"	"44"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"South Carolina"	"45"	"2014"	"2014"	"Female"	"F"	1831
+	"Breast"	"26000"	"South Carolina"	"45"	"2014"	"2014"	"Male"	"M"	20
+	"Breast"	"26000"	"South Carolina"	"45"	"2015"	"2015"	"Female"	"F"	2010
+	"Breast"	"26000"	"South Carolina"	"45"	"2015"	"2015"	"Male"	"M"	28
+	"Breast"	"26000"	"South Carolina"	"45"	"2016"	"2016"	"Female"	"F"	2033
+	"Breast"	"26000"	"South Carolina"	"45"	"2016"	"2016"	"Male"	"M"	20
+	"Breast"	"26000"	"South Carolina"	"45"	"2017"	"2017"	"Female"	"F"	2167
+	"Breast"	"26000"	"South Carolina"	"45"	"2017"	"2017"	"Male"	"M"	19
+	"Breast"	"26000"	"South Carolina"	"45"	"2018"	"2018"	"Female"	"F"	2128
+	"Breast"	"26000"	"South Carolina"	"45"	"2018"	"2018"	"Male"	"M"	32
+	"Breast"	"26000"	"South Dakota"	"46"	"2014"	"2014"	"Female"	"F"	291
+	"Breast"	"26000"	"South Dakota"	"46"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"South Dakota"	"46"	"2015"	"2015"	"Female"	"F"	315
+	"Breast"	"26000"	"South Dakota"	"46"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"South Dakota"	"46"	"2016"	"2016"	"Female"	"F"	311
+	"Breast"	"26000"	"South Dakota"	"46"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"South Dakota"	"46"	"2017"	"2017"	"Female"	"F"	340
+	"Breast"	"26000"	"South Dakota"	"46"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"South Dakota"	"46"	"2018"	"2018"	"Female"	"F"	341
+	"Breast"	"26000"	"South Dakota"	"46"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Tennessee"	"47"	"2014"	"2014"	"Female"	"F"	2191
+	"Breast"	"26000"	"Tennessee"	"47"	"2014"	"2014"	"Male"	"M"	33
+	"Breast"	"26000"	"Tennessee"	"47"	"2015"	"2015"	"Female"	"F"	2371
+	"Breast"	"26000"	"Tennessee"	"47"	"2015"	"2015"	"Male"	"M"	31
+	"Breast"	"26000"	"Tennessee"	"47"	"2016"	"2016"	"Female"	"F"	2449
+	"Breast"	"26000"	"Tennessee"	"47"	"2016"	"2016"	"Male"	"M"	27
+	"Breast"	"26000"	"Tennessee"	"47"	"2017"	"2017"	"Female"	"F"	2440
+	"Breast"	"26000"	"Tennessee"	"47"	"2017"	"2017"	"Male"	"M"	29
+	"Breast"	"26000"	"Tennessee"	"47"	"2018"	"2018"	"Female"	"F"	2568
+	"Breast"	"26000"	"Tennessee"	"47"	"2018"	"2018"	"Male"	"M"	24
+	"Breast"	"26000"	"Texas"	"48"	"2014"	"2014"	"Female"	"F"	6577
+	"Breast"	"26000"	"Texas"	"48"	"2014"	"2014"	"Male"	"M"	72
+	"Breast"	"26000"	"Texas"	"48"	"2015"	"2015"	"Female"	"F"	6947
+	"Breast"	"26000"	"Texas"	"48"	"2015"	"2015"	"Male"	"M"	102
+	"Breast"	"26000"	"Texas"	"48"	"2016"	"2016"	"Female"	"F"	7019
+	"Breast"	"26000"	"Texas"	"48"	"2016"	"2016"	"Male"	"M"	103
+	"Breast"	"26000"	"Texas"	"48"	"2017"	"2017"	"Female"	"F"	7446
+	"Breast"	"26000"	"Texas"	"48"	"2017"	"2017"	"Male"	"M"	118
+	"Breast"	"26000"	"Texas"	"48"	"2018"	"2018"	"Female"	"F"	7772
+	"Breast"	"26000"	"Texas"	"48"	"2018"	"2018"	"Male"	"M"	102
+	"Breast"	"26000"	"Utah"	"49"	"2014"	"2014"	"Female"	"F"	653
+	"Breast"	"26000"	"Utah"	"49"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Utah"	"49"	"2015"	"2015"	"Female"	"F"	661
+	"Breast"	"26000"	"Utah"	"49"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Utah"	"49"	"2016"	"2016"	"Female"	"F"	652
+	"Breast"	"26000"	"Utah"	"49"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Utah"	"49"	"2017"	"2017"	"Female"	"F"	710
+	"Breast"	"26000"	"Utah"	"49"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Utah"	"49"	"2018"	"2018"	"Female"	"F"	768
+	"Breast"	"26000"	"Utah"	"49"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Vermont"	"50"	"2014"	"2014"	"Female"	"F"	271
+	"Breast"	"26000"	"Vermont"	"50"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Vermont"	"50"	"2015"	"2015"	"Female"	"F"	262
+	"Breast"	"26000"	"Vermont"	"50"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Vermont"	"50"	"2016"	"2016"	"Female"	"F"	286
+	"Breast"	"26000"	"Vermont"	"50"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Vermont"	"50"	"2017"	"2017"	"Female"	"F"	281
+	"Breast"	"26000"	"Vermont"	"50"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Vermont"	"50"	"2018"	"2018"	"Female"	"F"	283
+	"Breast"	"26000"	"Vermont"	"50"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Virginia"	"51"	"2014"	"2014"	"Female"	"F"	2903
+	"Breast"	"26000"	"Virginia"	"51"	"2014"	"2014"	"Male"	"M"	28
+	"Breast"	"26000"	"Virginia"	"51"	"2015"	"2015"	"Female"	"F"	2821
+	"Breast"	"26000"	"Virginia"	"51"	"2015"	"2015"	"Male"	"M"	37
+	"Breast"	"26000"	"Virginia"	"51"	"2016"	"2016"	"Female"	"F"	2947
+	"Breast"	"26000"	"Virginia"	"51"	"2016"	"2016"	"Male"	"M"	31
+	"Breast"	"26000"	"Virginia"	"51"	"2017"	"2017"	"Female"	"F"	2979
+	"Breast"	"26000"	"Virginia"	"51"	"2017"	"2017"	"Male"	"M"	38
+	"Breast"	"26000"	"Virginia"	"51"	"2018"	"2018"	"Female"	"F"	3035
+	"Breast"	"26000"	"Virginia"	"51"	"2018"	"2018"	"Male"	"M"	37
+	"Breast"	"26000"	"Washington"	"53"	"2014"	"2014"	"Female"	"F"	2520
+	"Breast"	"26000"	"Washington"	"53"	"2014"	"2014"	"Male"	"M"	25
+	"Breast"	"26000"	"Washington"	"53"	"2015"	"2015"	"Female"	"F"	2557
+	"Breast"	"26000"	"Washington"	"53"	"2015"	"2015"	"Male"	"M"	25
+	"Breast"	"26000"	"Washington"	"53"	"2016"	"2016"	"Female"	"F"	2712
+	"Breast"	"26000"	"Washington"	"53"	"2016"	"2016"	"Male"	"M"	27
+	"Breast"	"26000"	"Washington"	"53"	"2017"	"2017"	"Female"	"F"	2817
+	"Breast"	"26000"	"Washington"	"53"	"2017"	"2017"	"Male"	"M"	20
+	"Breast"	"26000"	"Washington"	"53"	"2018"	"2018"	"Female"	"F"	2807
+	"Breast"	"26000"	"Washington"	"53"	"2018"	"2018"	"Male"	"M"	26
+	"Breast"	"26000"	"West Virginia"	"54"	"2014"	"2014"	"Female"	"F"	725
+	"Breast"	"26000"	"West Virginia"	"54"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"West Virginia"	"54"	"2015"	"2015"	"Female"	"F"	752
+	"Breast"	"26000"	"West Virginia"	"54"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"West Virginia"	"54"	"2016"	"2016"	"Female"	"F"	728
+	"Breast"	"26000"	"West Virginia"	"54"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"West Virginia"	"54"	"2017"	"2017"	"Female"	"F"	761
+	"Breast"	"26000"	"West Virginia"	"54"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"West Virginia"	"54"	"2018"	"2018"	"Female"	"F"	812
+	"Breast"	"26000"	"West Virginia"	"54"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Wisconsin"	"55"	"2014"	"2014"	"Female"	"F"	2081
+	"Breast"	"26000"	"Wisconsin"	"55"	"2014"	"2014"	"Male"	"M"	39
+	"Breast"	"26000"	"Wisconsin"	"55"	"2015"	"2015"	"Female"	"F"	2212
+	"Breast"	"26000"	"Wisconsin"	"55"	"2015"	"2015"	"Male"	"M"	35
+	"Breast"	"26000"	"Wisconsin"	"55"	"2016"	"2016"	"Female"	"F"	2283
+	"Breast"	"26000"	"Wisconsin"	"55"	"2016"	"2016"	"Male"	"M"	21
+	"Breast"	"26000"	"Wisconsin"	"55"	"2017"	"2017"	"Female"	"F"	2358
+	"Breast"	"26000"	"Wisconsin"	"55"	"2017"	"2017"	"Male"	"M"	37
+	"Breast"	"26000"	"Wisconsin"	"55"	"2018"	"2018"	"Female"	"F"	2382
+	"Breast"	"26000"	"Wisconsin"	"55"	"2018"	"2018"	"Male"	"M"	25
+	"Breast"	"26000"	"Wyoming"	"56"	"2014"	"2014"	"Female"	"F"	191
+	"Breast"	"26000"	"Wyoming"	"56"	"2014"	"2014"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Wyoming"	"56"	"2015"	"2015"	"Female"	"F"	158
+	"Breast"	"26000"	"Wyoming"	"56"	"2015"	"2015"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Wyoming"	"56"	"2016"	"2016"	"Female"	"F"	199
+	"Breast"	"26000"	"Wyoming"	"56"	"2016"	"2016"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Wyoming"	"56"	"2017"	"2017"	"Female"	"F"	172
+	"Breast"	"26000"	"Wyoming"	"56"	"2017"	"2017"	"Male"	"M"	Suppressed
+	"Breast"	"26000"	"Wyoming"	"56"	"2018"	"2018"	"Female"	"F"	195
+	"Breast"	"26000"	"Wyoming"	"56"	"2018"	"2018"	"Male"	"M"	Suppressed
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2014"	"2014"	"Female"	"F"	1077
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2014"	"2014"	"Male"	"M"	1485
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2015"	"2015"	"Female"	"F"	1081
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2015"	"2015"	"Male"	"M"	1481
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2016"	"2016"	"Female"	"F"	1117
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2016"	"2016"	"Male"	"M"	1508
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2017"	"2017"	"Female"	"F"	1149
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2017"	"2017"	"Male"	"M"	1451
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2018"	"2018"	"Female"	"F"	1158
+	"Lung and Bronchus"	"22030"	"Alabama"	"01"	"2018"	"2018"	"Male"	"M"	1462
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2014"	"2014"	"Female"	"F"	90
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2014"	"2014"	"Male"	"M"	136
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2015"	"2015"	"Female"	"F"	95
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2015"	"2015"	"Male"	"M"	128
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2016"	"2016"	"Female"	"F"	111
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2016"	"2016"	"Male"	"M"	130
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2017"	"2017"	"Female"	"F"	107
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2017"	"2017"	"Male"	"M"	147
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2018"	"2018"	"Female"	"F"	103
+	"Lung and Bronchus"	"22030"	"Alaska"	"02"	"2018"	"2018"	"Male"	"M"	129
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2014"	"2014"	"Female"	"F"	1455
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2014"	"2014"	"Male"	"M"	1576
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2015"	"2015"	"Female"	"F"	1492
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2015"	"2015"	"Male"	"M"	1548
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2016"	"2016"	"Female"	"F"	1479
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2016"	"2016"	"Male"	"M"	1562
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2017"	"2017"	"Female"	"F"	1512
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2017"	"2017"	"Male"	"M"	1534
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2018"	"2018"	"Female"	"F"	1458
+	"Lung and Bronchus"	"22030"	"Arizona"	"04"	"2018"	"2018"	"Male"	"M"	1541
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2014"	"2014"	"Female"	"F"	871
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2014"	"2014"	"Male"	"M"	1095
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2015"	"2015"	"Female"	"F"	830
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2015"	"2015"	"Male"	"M"	1120
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2016"	"2016"	"Female"	"F"	873
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2016"	"2016"	"Male"	"M"	1133
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2017"	"2017"	"Female"	"F"	850
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2017"	"2017"	"Male"	"M"	1078
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2018"	"2018"	"Female"	"F"	903
+	"Lung and Bronchus"	"22030"	"Arkansas"	"05"	"2018"	"2018"	"Male"	"M"	1118
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2014"	"2014"	"Female"	"F"	6388
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2014"	"2014"	"Male"	"M"	6264
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2015"	"2015"	"Female"	"F"	6448
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2015"	"2015"	"Male"	"M"	6498
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2016"	"2016"	"Female"	"F"	6384
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2016"	"2016"	"Male"	"M"	6336
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2017"	"2017"	"Female"	"F"	6469
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2017"	"2017"	"Male"	"M"	6303
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2018"	"2018"	"Female"	"F"	6297
+	"Lung and Bronchus"	"22030"	"California"	"06"	"2018"	"2018"	"Male"	"M"	6043
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2014"	"2014"	"Female"	"F"	838
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2014"	"2014"	"Male"	"M"	816
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2015"	"2015"	"Female"	"F"	841
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2015"	"2015"	"Male"	"M"	810
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2016"	"2016"	"Female"	"F"	878
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2016"	"2016"	"Male"	"M"	850
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2017"	"2017"	"Female"	"F"	921
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2017"	"2017"	"Male"	"M"	864
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2018"	"2018"	"Female"	"F"	895
+	"Lung and Bronchus"	"22030"	"Colorado"	"08"	"2018"	"2018"	"Male"	"M"	838
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2014"	"2014"	"Female"	"F"	993
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2014"	"2014"	"Male"	"M"	940
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2015"	"2015"	"Female"	"F"	982
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2015"	"2015"	"Male"	"M"	894
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2016"	"2016"	"Female"	"F"	1022
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2016"	"2016"	"Male"	"M"	944
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2017"	"2017"	"Female"	"F"	1070
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2017"	"2017"	"Male"	"M"	992
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2018"	"2018"	"Female"	"F"	984
+	"Lung and Bronchus"	"22030"	"Connecticut"	"09"	"2018"	"2018"	"Male"	"M"	863
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2014"	"2014"	"Female"	"F"	287
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2014"	"2014"	"Male"	"M"	286
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2015"	"2015"	"Female"	"F"	291
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2015"	"2015"	"Male"	"M"	350
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2016"	"2016"	"Female"	"F"	303
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2016"	"2016"	"Male"	"M"	325
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2017"	"2017"	"Female"	"F"	302
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2017"	"2017"	"Male"	"M"	271
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2018"	"2018"	"Female"	"F"	297
+	"Lung and Bronchus"	"22030"	"Delaware"	"10"	"2018"	"2018"	"Male"	"M"	265
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2014"	"2014"	"Female"	"F"	105
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2014"	"2014"	"Male"	"M"	90
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2015"	"2015"	"Female"	"F"	92
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2015"	"2015"	"Male"	"M"	82
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2016"	"2016"	"Female"	"F"	86
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2016"	"2016"	"Male"	"M"	69
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2017"	"2017"	"Female"	"F"	107
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2017"	"2017"	"Male"	"M"	97
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2018"	"2018"	"Female"	"F"	105
+	"Lung and Bronchus"	"22030"	"District of Columbia"	"11"	"2018"	"2018"	"Male"	"M"	98
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2014"	"2014"	"Female"	"F"	5659
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2014"	"2014"	"Male"	"M"	6473
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2015"	"2015"	"Female"	"F"	5829
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2015"	"2015"	"Male"	"M"	6383
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2016"	"2016"	"Female"	"F"	5882
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2016"	"2016"	"Male"	"M"	6699
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2017"	"2017"	"Female"	"F"	6222
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2017"	"2017"	"Male"	"M"	6592
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2018"	"2018"	"Female"	"F"	6124
+	"Lung and Bronchus"	"22030"	"Florida"	"12"	"2018"	"2018"	"Male"	"M"	6708
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2014"	"2014"	"Female"	"F"	1950
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2014"	"2014"	"Male"	"M"	2479
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2015"	"2015"	"Female"	"F"	1991
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2015"	"2015"	"Male"	"M"	2412
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2016"	"2016"	"Female"	"F"	2106
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2016"	"2016"	"Male"	"M"	2572
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2017"	"2017"	"Female"	"F"	2148
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2017"	"2017"	"Male"	"M"	2602
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2018"	"2018"	"Female"	"F"	2132
+	"Lung and Bronchus"	"22030"	"Georgia"	"13"	"2018"	"2018"	"Male"	"M"	2417
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2014"	"2014"	"Female"	"F"	260
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2014"	"2014"	"Male"	"M"	308
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2015"	"2015"	"Female"	"F"	253
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2015"	"2015"	"Male"	"M"	342
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2016"	"2016"	"Female"	"F"	241
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2016"	"2016"	"Male"	"M"	379
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2017"	"2017"	"Female"	"F"	292
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2017"	"2017"	"Male"	"M"	357
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2018"	"2018"	"Female"	"F"	282
+	"Lung and Bronchus"	"22030"	"Hawaii"	"15"	"2018"	"2018"	"Male"	"M"	335
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2014"	"2014"	"Female"	"F"	313
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2014"	"2014"	"Male"	"M"	380
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2015"	"2015"	"Female"	"F"	329
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2015"	"2015"	"Male"	"M"	395
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2016"	"2016"	"Female"	"F"	342
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2016"	"2016"	"Male"	"M"	367
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2017"	"2017"	"Female"	"F"	380
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2017"	"2017"	"Male"	"M"	393
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2018"	"2018"	"Female"	"F"	351
+	"Lung and Bronchus"	"22030"	"Idaho"	"16"	"2018"	"2018"	"Male"	"M"	378
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2014"	"2014"	"Female"	"F"	3332
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2014"	"2014"	"Male"	"M"	3351
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2015"	"2015"	"Female"	"F"	3255
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2015"	"2015"	"Male"	"M"	3388
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2016"	"2016"	"Female"	"F"	3361
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2016"	"2016"	"Male"	"M"	3361
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2017"	"2017"	"Female"	"F"	3317
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2017"	"2017"	"Male"	"M"	3433
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2018"	"2018"	"Female"	"F"	3417
+	"Lung and Bronchus"	"22030"	"Illinois"	"17"	"2018"	"2018"	"Male"	"M"	3240
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2014"	"2014"	"Female"	"F"	1739
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2014"	"2014"	"Male"	"M"	1989
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2015"	"2015"	"Female"	"F"	1780
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2015"	"2015"	"Male"	"M"	2108
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2016"	"2016"	"Female"	"F"	1804
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2016"	"2016"	"Male"	"M"	2049
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2017"	"2017"	"Female"	"F"	1785
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2017"	"2017"	"Male"	"M"	2018
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2018"	"2018"	"Female"	"F"	1647
+	"Lung and Bronchus"	"22030"	"Indiana"	"18"	"2018"	"2018"	"Male"	"M"	1666
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2014"	"2014"	"Female"	"F"	845
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2014"	"2014"	"Male"	"M"	952
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2015"	"2015"	"Female"	"F"	800
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2015"	"2015"	"Male"	"M"	960
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2016"	"2016"	"Female"	"F"	802
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2016"	"2016"	"Male"	"M"	905
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2017"	"2017"	"Female"	"F"	848
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2017"	"2017"	"Male"	"M"	976
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2018"	"2018"	"Female"	"F"	800
+	"Lung and Bronchus"	"22030"	"Iowa"	"19"	"2018"	"2018"	"Male"	"M"	900
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2014"	"2014"	"Female"	"F"	623
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2014"	"2014"	"Male"	"M"	699
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2015"	"2015"	"Female"	"F"	696
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2015"	"2015"	"Male"	"M"	712
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2016"	"2016"	"Female"	"F"	618
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2016"	"2016"	"Male"	"M"	668
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2017"	"2017"	"Female"	"F"	589
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2017"	"2017"	"Male"	"M"	735
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2018"	"2018"	"Female"	"F"	665
+	"Lung and Bronchus"	"22030"	"Kansas"	"20"	"2018"	"2018"	"Male"	"M"	653
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2014"	"2014"	"Female"	"F"	1444
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2014"	"2014"	"Male"	"M"	1748
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2015"	"2015"	"Female"	"F"	1500
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2015"	"2015"	"Male"	"M"	1681
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2016"	"2016"	"Female"	"F"	1442
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2016"	"2016"	"Male"	"M"	1727
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2017"	"2017"	"Female"	"F"	1524
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2017"	"2017"	"Male"	"M"	1745
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2018"	"2018"	"Female"	"F"	1520
+	"Lung and Bronchus"	"22030"	"Kentucky"	"21"	"2018"	"2018"	"Male"	"M"	1603
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2014"	"2014"	"Female"	"F"	999
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2014"	"2014"	"Male"	"M"	1291
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2015"	"2015"	"Female"	"F"	1007
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2015"	"2015"	"Male"	"M"	1245
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2016"	"2016"	"Female"	"F"	1057
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2016"	"2016"	"Male"	"M"	1248
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2017"	"2017"	"Female"	"F"	1015
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2017"	"2017"	"Male"	"M"	1302
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2018"	"2018"	"Female"	"F"	988
+	"Lung and Bronchus"	"22030"	"Louisiana"	"22"	"2018"	"2018"	"Male"	"M"	1278
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2014"	"2014"	"Female"	"F"	458
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2014"	"2014"	"Male"	"M"	459
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2015"	"2015"	"Female"	"F"	492
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2015"	"2015"	"Male"	"M"	461
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2016"	"2016"	"Female"	"F"	471
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2016"	"2016"	"Male"	"M"	527
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2017"	"2017"	"Female"	"F"	510
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2017"	"2017"	"Male"	"M"	471
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2018"	"2018"	"Female"	"F"	494
+	"Lung and Bronchus"	"22030"	"Maine"	"23"	"2018"	"2018"	"Male"	"M"	493
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2014"	"2014"	"Female"	"F"	1331
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2014"	"2014"	"Male"	"M"	1257
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2015"	"2015"	"Female"	"F"	1402
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2015"	"2015"	"Male"	"M"	1341
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2016"	"2016"	"Female"	"F"	1420
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2016"	"2016"	"Male"	"M"	1330
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2017"	"2017"	"Female"	"F"	1433
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2017"	"2017"	"Male"	"M"	1338
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2018"	"2018"	"Female"	"F"	1374
+	"Lung and Bronchus"	"22030"	"Maryland"	"24"	"2018"	"2018"	"Male"	"M"	1271
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2014"	"2014"	"Female"	"F"	1875
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2014"	"2014"	"Male"	"M"	1734
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2015"	"2015"	"Female"	"F"	1984
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2015"	"2015"	"Male"	"M"	1705
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2016"	"2016"	"Female"	"F"	2035
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2016"	"2016"	"Male"	"M"	1718
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2017"	"2017"	"Female"	"F"	2068
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2017"	"2017"	"Male"	"M"	1784
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2018"	"2018"	"Female"	"F"	1807
+	"Lung and Bronchus"	"22030"	"Massachusetts"	"25"	"2018"	"2018"	"Male"	"M"	1601
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2014"	"2014"	"Female"	"F"	2618
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2014"	"2014"	"Male"	"M"	2780
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2015"	"2015"	"Female"	"F"	2697
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2015"	"2015"	"Male"	"M"	2763
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2016"	"2016"	"Female"	"F"	2596
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2016"	"2016"	"Male"	"M"	2868
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2017"	"2017"	"Female"	"F"	2735
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2017"	"2017"	"Male"	"M"	2800
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2018"	"2018"	"Female"	"F"	2764
+	"Lung and Bronchus"	"22030"	"Michigan"	"26"	"2018"	"2018"	"Male"	"M"	2658
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2014"	"2014"	"Female"	"F"	1170
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2014"	"2014"	"Male"	"M"	1180
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2015"	"2015"	"Female"	"F"	1297
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2015"	"2015"	"Male"	"M"	1300
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2016"	"2016"	"Female"	"F"	1371
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2016"	"2016"	"Male"	"M"	1333
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2017"	"2017"	"Female"	"F"	1364
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2017"	"2017"	"Male"	"M"	1315
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2018"	"2018"	"Female"	"F"	1274
+	"Lung and Bronchus"	"22030"	"Minnesota"	"27"	"2018"	"2018"	"Male"	"M"	1347
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2014"	"2014"	"Female"	"F"	685
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2014"	"2014"	"Male"	"M"	984
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2015"	"2015"	"Female"	"F"	737
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2015"	"2015"	"Male"	"M"	988
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2016"	"2016"	"Female"	"F"	770
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2016"	"2016"	"Male"	"M"	995
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2017"	"2017"	"Female"	"F"	770
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2017"	"2017"	"Male"	"M"	1008
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2018"	"2018"	"Female"	"F"	741
+	"Lung and Bronchus"	"22030"	"Mississippi"	"28"	"2018"	"2018"	"Male"	"M"	1022
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2014"	"2014"	"Female"	"F"	1735
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2014"	"2014"	"Male"	"M"	1950
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2015"	"2015"	"Female"	"F"	1718
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2015"	"2015"	"Male"	"M"	1958
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2016"	"2016"	"Female"	"F"	1758
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2016"	"2016"	"Male"	"M"	1915
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2017"	"2017"	"Female"	"F"	1867
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2017"	"2017"	"Male"	"M"	2074
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2018"	"2018"	"Female"	"F"	1774
+	"Lung and Bronchus"	"22030"	"Missouri"	"29"	"2018"	"2018"	"Male"	"M"	1873
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2014"	"2014"	"Female"	"F"	260
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2014"	"2014"	"Male"	"M"	283
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2015"	"2015"	"Female"	"F"	298
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2015"	"2015"	"Male"	"M"	266
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2016"	"2016"	"Female"	"F"	275
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2016"	"2016"	"Male"	"M"	255
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2017"	"2017"	"Female"	"F"	284
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2017"	"2017"	"Male"	"M"	256
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2018"	"2018"	"Female"	"F"	264
+	"Lung and Bronchus"	"22030"	"Montana"	"30"	"2018"	"2018"	"Male"	"M"	249
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2014"	"2014"	"Female"	"F"	385
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2014"	"2014"	"Male"	"M"	490
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2015"	"2015"	"Female"	"F"	416
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2015"	"2015"	"Male"	"M"	479
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2016"	"2016"	"Female"	"F"	431
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2016"	"2016"	"Male"	"M"	412
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2017"	"2017"	"Female"	"F"	432
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2017"	"2017"	"Male"	"M"	463
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2018"	"2018"	"Female"	"F"	442
+	"Lung and Bronchus"	"22030"	"Nebraska"	"31"	"2018"	"2018"	"Male"	"M"	469
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2014"	"2014"	"Female"	"F"	678
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2014"	"2014"	"Male"	"M"	627
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2015"	"2015"	"Female"	"F"	646
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2015"	"2015"	"Male"	"M"	571
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2016"	"2016"	"Female"	"F"	696
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2016"	"2016"	"Male"	"M"	668
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2017"	"2017"	"Female"	"F"	671
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2017"	"2017"	"Male"	"M"	627
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2018"	"2018"	"Female"	"F"	Missing
+	"Lung and Bronchus"	"22030"	"Nevada"	"32"	"2018"	"2018"	"Male"	"M"	Missing
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2014"	"2014"	"Female"	"F"	363
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2014"	"2014"	"Male"	"M"	378
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2015"	"2015"	"Female"	"F"	377
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2015"	"2015"	"Male"	"M"	376
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2016"	"2016"	"Female"	"F"	429
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2016"	"2016"	"Male"	"M"	388
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2017"	"2017"	"Female"	"F"	406
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2017"	"2017"	"Male"	"M"	387
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2018"	"2018"	"Female"	"F"	384
+	"Lung and Bronchus"	"22030"	"New Hampshire"	"33"	"2018"	"2018"	"Male"	"M"	383
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2014"	"2014"	"Female"	"F"	2243
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2014"	"2014"	"Male"	"M"	2029
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2015"	"2015"	"Female"	"F"	2307
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2015"	"2015"	"Male"	"M"	2106
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2016"	"2016"	"Female"	"F"	2331
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2016"	"2016"	"Male"	"M"	2029
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2017"	"2017"	"Female"	"F"	2213
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2017"	"2017"	"Male"	"M"	2053
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2018"	"2018"	"Female"	"F"	2322
+	"Lung and Bronchus"	"22030"	"New Jersey"	"34"	"2018"	"2018"	"Male"	"M"	2103
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2014"	"2014"	"Female"	"F"	354
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2014"	"2014"	"Male"	"M"	387
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2015"	"2015"	"Female"	"F"	363
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2015"	"2015"	"Male"	"M"	407
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2016"	"2016"	"Female"	"F"	342
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2016"	"2016"	"Male"	"M"	430
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2017"	"2017"	"Female"	"F"	336
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2017"	"2017"	"Male"	"M"	370
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2018"	"2018"	"Female"	"F"	312
+	"Lung and Bronchus"	"22030"	"New Mexico"	"35"	"2018"	"2018"	"Male"	"M"	340
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2014"	"2014"	"Female"	"F"	4724
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2014"	"2014"	"Male"	"M"	4641
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2015"	"2015"	"Female"	"F"	5034
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2015"	"2015"	"Male"	"M"	4889
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2016"	"2016"	"Female"	"F"	4971
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2016"	"2016"	"Male"	"M"	4761
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2017"	"2017"	"Female"	"F"	5317
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2017"	"2017"	"Male"	"M"	4944
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2018"	"2018"	"Female"	"F"	5235
+	"Lung and Bronchus"	"22030"	"New York"	"36"	"2018"	"2018"	"Male"	"M"	4770
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2014"	"2014"	"Female"	"F"	2538
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2014"	"2014"	"Male"	"M"	3003
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2015"	"2015"	"Female"	"F"	2601
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2015"	"2015"	"Male"	"M"	2985
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2016"	"2016"	"Female"	"F"	2535
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2016"	"2016"	"Male"	"M"	3122
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2017"	"2017"	"Female"	"F"	2649
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2017"	"2017"	"Male"	"M"	3000
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2018"	"2018"	"Female"	"F"	2651
+	"Lung and Bronchus"	"22030"	"North Carolina"	"37"	"2018"	"2018"	"Male"	"M"	3043
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2014"	"2014"	"Female"	"F"	168
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2014"	"2014"	"Male"	"M"	190
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2015"	"2015"	"Female"	"F"	173
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2015"	"2015"	"Male"	"M"	169
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2016"	"2016"	"Female"	"F"	151
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2016"	"2016"	"Male"	"M"	174
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2017"	"2017"	"Female"	"F"	181
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2017"	"2017"	"Male"	"M"	225
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2018"	"2018"	"Female"	"F"	182
+	"Lung and Bronchus"	"22030"	"North Dakota"	"38"	"2018"	"2018"	"Male"	"M"	178
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2014"	"2014"	"Female"	"F"	3030
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2014"	"2014"	"Male"	"M"	3488
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2015"	"2015"	"Female"	"F"	3185
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2015"	"2015"	"Male"	"M"	3553
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2016"	"2016"	"Female"	"F"	3149
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2016"	"2016"	"Male"	"M"	3451
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2017"	"2017"	"Female"	"F"	3105
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2017"	"2017"	"Male"	"M"	3432
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2018"	"2018"	"Female"	"F"	3211
+	"Lung and Bronchus"	"22030"	"Ohio"	"39"	"2018"	"2018"	"Male"	"M"	3410
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2014"	"2014"	"Female"	"F"	1009
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2014"	"2014"	"Male"	"M"	1246
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2015"	"2015"	"Female"	"F"	987
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2015"	"2015"	"Male"	"M"	1212
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2016"	"2016"	"Female"	"F"	951
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2016"	"2016"	"Male"	"M"	1092
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2017"	"2017"	"Female"	"F"	931
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2017"	"2017"	"Male"	"M"	1099
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2018"	"2018"	"Female"	"F"	1040
+	"Lung and Bronchus"	"22030"	"Oklahoma"	"40"	"2018"	"2018"	"Male"	"M"	1136
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2014"	"2014"	"Female"	"F"	1042
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2014"	"2014"	"Male"	"M"	1009
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2015"	"2015"	"Female"	"F"	1027
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2015"	"2015"	"Male"	"M"	1070
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2016"	"2016"	"Female"	"F"	1014
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2016"	"2016"	"Male"	"M"	1004
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2017"	"2017"	"Female"	"F"	1067
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2017"	"2017"	"Male"	"M"	969
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2018"	"2018"	"Female"	"F"	1024
+	"Lung and Bronchus"	"22030"	"Oregon"	"41"	"2018"	"2018"	"Male"	"M"	896
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2014"	"2014"	"Female"	"F"	3613
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2014"	"2014"	"Male"	"M"	3868
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2015"	"2015"	"Female"	"F"	3694
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2015"	"2015"	"Male"	"M"	3927
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2016"	"2016"	"Female"	"F"	3685
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2016"	"2016"	"Male"	"M"	3995
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2017"	"2017"	"Female"	"F"	3761
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2017"	"2017"	"Male"	"M"	3976
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2018"	"2018"	"Female"	"F"	3781
+	"Lung and Bronchus"	"22030"	"Pennsylvania"	"42"	"2018"	"2018"	"Male"	"M"	3807
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2014"	"2014"	"Female"	"F"	321
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2014"	"2014"	"Male"	"M"	334
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2015"	"2015"	"Female"	"F"	342
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2015"	"2015"	"Male"	"M"	343
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2016"	"2016"	"Female"	"F"	356
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2016"	"2016"	"Male"	"M"	333
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2017"	"2017"	"Female"	"F"	347
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2017"	"2017"	"Male"	"M"	281
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2018"	"2018"	"Female"	"F"	337
+	"Lung and Bronchus"	"22030"	"Rhode Island"	"44"	"2018"	"2018"	"Male"	"M"	309
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2014"	"2014"	"Female"	"F"	1123
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2014"	"2014"	"Male"	"M"	1568
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2015"	"2015"	"Female"	"F"	1221
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2015"	"2015"	"Male"	"M"	1554
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2016"	"2016"	"Female"	"F"	1174
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2016"	"2016"	"Male"	"M"	1451
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2017"	"2017"	"Female"	"F"	1238
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2017"	"2017"	"Male"	"M"	1596
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2018"	"2018"	"Female"	"F"	1315
+	"Lung and Bronchus"	"22030"	"South Carolina"	"45"	"2018"	"2018"	"Male"	"M"	1506
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2014"	"2014"	"Female"	"F"	171
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2014"	"2014"	"Male"	"M"	249
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2015"	"2015"	"Female"	"F"	205
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2015"	"2015"	"Male"	"M"	230
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2016"	"2016"	"Female"	"F"	233
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2016"	"2016"	"Male"	"M"	246
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2017"	"2017"	"Female"	"F"	218
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2017"	"2017"	"Male"	"M"	235
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2018"	"2018"	"Female"	"F"	210
+	"Lung and Bronchus"	"22030"	"South Dakota"	"46"	"2018"	"2018"	"Male"	"M"	227
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2014"	"2014"	"Female"	"F"	1676
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2014"	"2014"	"Male"	"M"	2164
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2015"	"2015"	"Female"	"F"	1862
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2015"	"2015"	"Male"	"M"	2298
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2016"	"2016"	"Female"	"F"	1790
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2016"	"2016"	"Male"	"M"	2201
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2017"	"2017"	"Female"	"F"	1899
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2017"	"2017"	"Male"	"M"	2314
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2018"	"2018"	"Female"	"F"	1892
+	"Lung and Bronchus"	"22030"	"Tennessee"	"47"	"2018"	"2018"	"Male"	"M"	2137
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2014"	"2014"	"Female"	"F"	4225
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2014"	"2014"	"Male"	"M"	5055
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2015"	"2015"	"Female"	"F"	4154
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2015"	"2015"	"Male"	"M"	5019
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2016"	"2016"	"Female"	"F"	4301
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2016"	"2016"	"Male"	"M"	5056
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2017"	"2017"	"Female"	"F"	4391
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2017"	"2017"	"Male"	"M"	5245
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2018"	"2018"	"Female"	"F"	4478
+	"Lung and Bronchus"	"22030"	"Texas"	"48"	"2018"	"2018"	"Male"	"M"	5138
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2014"	"2014"	"Female"	"F"	195
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2014"	"2014"	"Male"	"M"	238
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2015"	"2015"	"Female"	"F"	213
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2015"	"2015"	"Male"	"M"	244
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2016"	"2016"	"Female"	"F"	200
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2016"	"2016"	"Male"	"M"	255
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2017"	"2017"	"Female"	"F"	207
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2017"	"2017"	"Male"	"M"	280
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2018"	"2018"	"Female"	"F"	232
+	"Lung and Bronchus"	"22030"	"Utah"	"49"	"2018"	"2018"	"Male"	"M"	294
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2014"	"2014"	"Female"	"F"	203
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2014"	"2014"	"Male"	"M"	164
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2015"	"2015"	"Female"	"F"	153
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2015"	"2015"	"Male"	"M"	184
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2016"	"2016"	"Female"	"F"	204
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2016"	"2016"	"Male"	"M"	187
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2017"	"2017"	"Female"	"F"	168
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2017"	"2017"	"Male"	"M"	185
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2018"	"2018"	"Female"	"F"	164
+	"Lung and Bronchus"	"22030"	"Vermont"	"50"	"2018"	"2018"	"Male"	"M"	153
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2014"	"2014"	"Female"	"F"	1740
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2014"	"2014"	"Male"	"M"	2001
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2015"	"2015"	"Female"	"F"	1868
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2015"	"2015"	"Male"	"M"	1886
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2016"	"2016"	"Female"	"F"	1821
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2016"	"2016"	"Male"	"M"	2000
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2017"	"2017"	"Female"	"F"	1681
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2017"	"2017"	"Male"	"M"	1915
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2018"	"2018"	"Female"	"F"	1785
+	"Lung and Bronchus"	"22030"	"Virginia"	"51"	"2018"	"2018"	"Male"	"M"	1861
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2014"	"2014"	"Female"	"F"	1556
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2014"	"2014"	"Male"	"M"	1702
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2015"	"2015"	"Female"	"F"	1581
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2015"	"2015"	"Male"	"M"	1534
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2016"	"2016"	"Female"	"F"	1595
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2016"	"2016"	"Male"	"M"	1617
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2017"	"2017"	"Female"	"F"	1628
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2017"	"2017"	"Male"	"M"	1514
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2018"	"2018"	"Female"	"F"	1633
+	"Lung and Bronchus"	"22030"	"Washington"	"53"	"2018"	"2018"	"Male"	"M"	1562
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2014"	"2014"	"Female"	"F"	606
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2014"	"2014"	"Male"	"M"	760
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2015"	"2015"	"Female"	"F"	582
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2015"	"2015"	"Male"	"M"	792
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2016"	"2016"	"Female"	"F"	609
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2016"	"2016"	"Male"	"M"	709
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2017"	"2017"	"Female"	"F"	691
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2017"	"2017"	"Male"	"M"	762
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2018"	"2018"	"Female"	"F"	634
+	"Lung and Bronchus"	"22030"	"West Virginia"	"54"	"2018"	"2018"	"Male"	"M"	696
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2014"	"2014"	"Female"	"F"	1470
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2014"	"2014"	"Male"	"M"	1490
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2015"	"2015"	"Female"	"F"	1410
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2015"	"2015"	"Male"	"M"	1587
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2016"	"2016"	"Female"	"F"	1504
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2016"	"2016"	"Male"	"M"	1583
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2017"	"2017"	"Female"	"F"	1526
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2017"	"2017"	"Male"	"M"	1560
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2018"	"2018"	"Female"	"F"	1513
+	"Lung and Bronchus"	"22030"	"Wisconsin"	"55"	"2018"	"2018"	"Male"	"M"	1586
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2014"	"2014"	"Female"	"F"	108
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2014"	"2014"	"Male"	"M"	102
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2015"	"2015"	"Female"	"F"	101
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2015"	"2015"	"Male"	"M"	91
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2016"	"2016"	"Female"	"F"	102
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2016"	"2016"	"Male"	"M"	117
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2017"	"2017"	"Female"	"F"	93
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2017"	"2017"	"Male"	"M"	119
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2018"	"2018"	"Female"	"F"	111
+	"Lung and Bronchus"	"22030"	"Wyoming"	"56"	"2018"	"2018"	"Male"	"M"	93
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2014"	"2014"	"Female"	"F"	163
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2014"	"2014"	"Male"	"M"	356
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2015"	"2015"	"Female"	"F"	206
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2015"	"2015"	"Male"	"M"	446
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2016"	"2016"	"Female"	"F"	222
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2016"	"2016"	"Male"	"M"	487
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2017"	"2017"	"Female"	"F"	238
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2017"	"2017"	"Male"	"M"	448
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2018"	"2018"	"Female"	"F"	221
+	"Melanoma of the Skin"	"25010"	"Alabama"	"01"	"2018"	"2018"	"Male"	"M"	448
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2014"	"2014"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2014"	"2014"	"Male"	"M"	30
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2015"	"2015"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2015"	"2015"	"Male"	"M"	28
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2016"	"2016"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2016"	"2016"	"Male"	"M"	35
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2017"	"2017"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2017"	"2017"	"Male"	"M"	30
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2018"	"2018"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"Alaska"	"02"	"2018"	"2018"	"Male"	"M"	28
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2014"	"2014"	"Female"	"F"	293
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2014"	"2014"	"Male"	"M"	707
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2015"	"2015"	"Female"	"F"	309
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2015"	"2015"	"Male"	"M"	831
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2016"	"2016"	"Female"	"F"	421
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2016"	"2016"	"Male"	"M"	842
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2017"	"2017"	"Female"	"F"	429
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2017"	"2017"	"Male"	"M"	1132
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2018"	"2018"	"Female"	"F"	481
+	"Melanoma of the Skin"	"25010"	"Arizona"	"04"	"2018"	"2018"	"Male"	"M"	1141
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2014"	"2014"	"Female"	"F"	111
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2014"	"2014"	"Male"	"M"	261
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2015"	"2015"	"Female"	"F"	132
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2015"	"2015"	"Male"	"M"	294
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2016"	"2016"	"Female"	"F"	111
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2016"	"2016"	"Male"	"M"	306
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2017"	"2017"	"Female"	"F"	140
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2017"	"2017"	"Male"	"M"	290
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2018"	"2018"	"Female"	"F"	143
+	"Melanoma of the Skin"	"25010"	"Arkansas"	"05"	"2018"	"2018"	"Male"	"M"	351
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2014"	"2014"	"Female"	"F"	1640
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2014"	"2014"	"Male"	"M"	3265
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2015"	"2015"	"Female"	"F"	1680
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2015"	"2015"	"Male"	"M"	3397
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2016"	"2016"	"Female"	"F"	1680
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2016"	"2016"	"Male"	"M"	3517
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2017"	"2017"	"Female"	"F"	1783
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2017"	"2017"	"Male"	"M"	3655
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2018"	"2018"	"Female"	"F"	1928
+	"Melanoma of the Skin"	"25010"	"California"	"06"	"2018"	"2018"	"Male"	"M"	3694
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2014"	"2014"	"Female"	"F"	201
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2014"	"2014"	"Male"	"M"	393
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2015"	"2015"	"Female"	"F"	205
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2015"	"2015"	"Male"	"M"	402
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2016"	"2016"	"Female"	"F"	200
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2016"	"2016"	"Male"	"M"	444
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2017"	"2017"	"Female"	"F"	228
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2017"	"2017"	"Male"	"M"	427
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2018"	"2018"	"Female"	"F"	220
+	"Melanoma of the Skin"	"25010"	"Colorado"	"08"	"2018"	"2018"	"Male"	"M"	403
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2014"	"2014"	"Female"	"F"	187
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2014"	"2014"	"Male"	"M"	325
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2015"	"2015"	"Female"	"F"	177
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2015"	"2015"	"Male"	"M"	305
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2016"	"2016"	"Female"	"F"	183
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2016"	"2016"	"Male"	"M"	330
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2017"	"2017"	"Female"	"F"	178
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2017"	"2017"	"Male"	"M"	283
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2018"	"2018"	"Female"	"F"	192
+	"Melanoma of the Skin"	"25010"	"Connecticut"	"09"	"2018"	"2018"	"Male"	"M"	316
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2014"	"2014"	"Female"	"F"	67
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2014"	"2014"	"Male"	"M"	125
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2015"	"2015"	"Female"	"F"	47
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2015"	"2015"	"Male"	"M"	132
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2016"	"2016"	"Female"	"F"	69
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2016"	"2016"	"Male"	"M"	163
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2017"	"2017"	"Female"	"F"	76
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2017"	"2017"	"Male"	"M"	133
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2018"	"2018"	"Female"	"F"	71
+	"Melanoma of the Skin"	"25010"	"Delaware"	"10"	"2018"	"2018"	"Male"	"M"	149
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2014"	"2014"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2014"	"2014"	"Male"	"M"	24
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2015"	"2015"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2015"	"2015"	"Male"	"M"	28
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2016"	"2016"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2016"	"2016"	"Male"	"M"	18
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2017"	"2017"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2017"	"2017"	"Male"	"M"	21
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2018"	"2018"	"Female"	"F"	Suppressed
+	"Melanoma of the Skin"	"25010"	"District of Columbia"	"11"	"2018"	"2018"	"Male"	"M"	19
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2014"	"2014"	"Female"	"F"	1213
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2014"	"2014"	"Male"	"M"	2847
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2015"	"2015"	"Female"	"F"	1353
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2015"	"2015"	"Male"	"M"	3027
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2016"	"2016"	"Female"	"F"	1409
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2016"	"2016"	"Male"	"M"	2994
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2017"	"2017"	"Female"	"F"	1535
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2017"	"2017"	"Male"	"M"	3225
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2018"	"2018"	"Female"	"F"	1447
+	"Melanoma of the Skin"	"25010"	"Florida"	"12"	"2018"	"2018"	"Male"	"M"	3120
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2014"	"2014"	"Female"	"F"	414
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2014"	"2014"	"Male"	"M"	930
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2015"	"2015"	"Female"	"F"	446
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2015"	"2015"	"Male"	"M"	941
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2016"	"2016"	"Female"	"F"	430
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2016"	"2016"	"Male"	"M"	942
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2017"	"2017"	"Female"	"F"	437
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2017"	"2017"	"Male"	"M"	1021
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2018"	"2018"	"Female"	"F"	510
+	"Melanoma of the Skin"	"25010"	"Georgia"	"13"	"2018"	"2018"	"Male"	"M"	950
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2014"	"2014"	"Female"	"F"	60
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2014"	"2014"	"Male"	"M"	111
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2015"	"2015"	"Female"	"F"	57
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2015"	"2015"	"Male"	"M"	159
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2016"	"2016"	"Female"	"F"	69
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2016"	"2016"	"Male"	"M"	178
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2017"	"2017"	"Female"	"F"	54
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2017"	"2017"	"Male"	"M"	159
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2018"	"2018"	"Female"	"F"	65
+	"Melanoma of the Skin"	"25010"	"Hawaii"	"15"	"2018"	"2018"	"Male"	"M"	198
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2014"	"2014"	"Female"	"F"	73
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2014"	"2014"	"Male"	"M"	148
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2015"	"2015"	"Female"	"F"	89
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2015"	"2015"	"Male"	"M"	165
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2016"	"2016"	"Female"	"F"	103
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2016"	"2016"	"Male"	"M"	192
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2017"	"2017"	"Female"	"F"	86
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2017"	"2017"	"Male"	"M"	194
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2018"	"2018"	"Female"	"F"	89
+	"Melanoma of the Skin"	"25010"	"Idaho"	"16"	"2018"	"2018"	"Male"	"M"	201
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2014"	"2014"	"Female"	"F"	450
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2014"	"2014"	"Male"	"M"	861
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2015"	"2015"	"Female"	"F"	476
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2015"	"2015"	"Male"	"M"	880
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2016"	"2016"	"Female"	"F"	505
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2016"	"2016"	"Male"	"M"	1011
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2017"	"2017"	"Female"	"F"	558
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2017"	"2017"	"Male"	"M"	1063
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2018"	"2018"	"Female"	"F"	603
+	"Melanoma of the Skin"	"25010"	"Illinois"	"17"	"2018"	"2018"	"Male"	"M"	1062
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2014"	"2014"	"Female"	"F"	252
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2014"	"2014"	"Male"	"M"	486
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2015"	"2015"	"Female"	"F"	258
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2015"	"2015"	"Male"	"M"	546
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2016"	"2016"	"Female"	"F"	287
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2016"	"2016"	"Male"	"M"	568
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2017"	"2017"	"Female"	"F"	309
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2017"	"2017"	"Male"	"M"	566
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2018"	"2018"	"Female"	"F"	288
+	"Melanoma of the Skin"	"25010"	"Indiana"	"18"	"2018"	"2018"	"Male"	"M"	478
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2014"	"2014"	"Female"	"F"	149
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2014"	"2014"	"Male"	"M"	282
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2015"	"2015"	"Female"	"F"	166
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2015"	"2015"	"Male"	"M"	305
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2016"	"2016"	"Female"	"F"	156
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2016"	"2016"	"Male"	"M"	334
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2017"	"2017"	"Female"	"F"	176
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2017"	"2017"	"Male"	"M"	343
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2018"	"2018"	"Female"	"F"	196
+	"Melanoma of the Skin"	"25010"	"Iowa"	"19"	"2018"	"2018"	"Male"	"M"	346
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2014"	"2014"	"Female"	"F"	132
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2014"	"2014"	"Male"	"M"	262
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2015"	"2015"	"Female"	"F"	167
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2015"	"2015"	"Male"	"M"	261
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2016"	"2016"	"Female"	"F"	138
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2016"	"2016"	"Male"	"M"	290
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2017"	"2017"	"Female"	"F"	148
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2017"	"2017"	"Male"	"M"	310
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2018"	"2018"	"Female"	"F"	139
+	"Melanoma of the Skin"	"25010"	"Kansas"	"20"	"2018"	"2018"	"Male"	"M"	285
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2014"	"2014"	"Female"	"F"	228
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2014"	"2014"	"Male"	"M"	417
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2015"	"2015"	"Female"	"F"	214
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2015"	"2015"	"Male"	"M"	457
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2016"	"2016"	"Female"	"F"	237
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2016"	"2016"	"Male"	"M"	471
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2017"	"2017"	"Female"	"F"	206
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2017"	"2017"	"Male"	"M"	461
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2018"	"2018"	"Female"	"F"	258
+	"Melanoma of the Skin"	"25010"	"Kentucky"	"21"	"2018"	"2018"	"Male"	"M"	458
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2014"	"2014"	"Female"	"F"	113
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2014"	"2014"	"Male"	"M"	326
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2015"	"2015"	"Female"	"F"	138
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2015"	"2015"	"Male"	"M"	343
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2016"	"2016"	"Female"	"F"	118
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2016"	"2016"	"Male"	"M"	281
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2017"	"2017"	"Female"	"F"	139
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2017"	"2017"	"Male"	"M"	329
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2018"	"2018"	"Female"	"F"	134
+	"Melanoma of the Skin"	"25010"	"Louisiana"	"22"	"2018"	"2018"	"Male"	"M"	333
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2014"	"2014"	"Female"	"F"	83
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2014"	"2014"	"Male"	"M"	158
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2015"	"2015"	"Female"	"F"	93
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2015"	"2015"	"Male"	"M"	152
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2016"	"2016"	"Female"	"F"	106
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2016"	"2016"	"Male"	"M"	170
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2017"	"2017"	"Female"	"F"	94
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2017"	"2017"	"Male"	"M"	136
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2018"	"2018"	"Female"	"F"	133
+	"Melanoma of the Skin"	"25010"	"Maine"	"23"	"2018"	"2018"	"Male"	"M"	186
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2014"	"2014"	"Female"	"F"	249
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2014"	"2014"	"Male"	"M"	496
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2015"	"2015"	"Female"	"F"	267
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2015"	"2015"	"Male"	"M"	600
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2016"	"2016"	"Female"	"F"	304
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2016"	"2016"	"Male"	"M"	582
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2017"	"2017"	"Female"	"F"	279
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2017"	"2017"	"Male"	"M"	605
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2018"	"2018"	"Female"	"F"	318
+	"Melanoma of the Skin"	"25010"	"Maryland"	"24"	"2018"	"2018"	"Male"	"M"	623
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2014"	"2014"	"Female"	"F"	289
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2014"	"2014"	"Male"	"M"	426
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2015"	"2015"	"Female"	"F"	383
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2015"	"2015"	"Male"	"M"	574
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2016"	"2016"	"Female"	"F"	418
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2016"	"2016"	"Male"	"M"	678
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2017"	"2017"	"Female"	"F"	445
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2017"	"2017"	"Male"	"M"	699
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2018"	"2018"	"Female"	"F"	241
+	"Melanoma of the Skin"	"25010"	"Massachusetts"	"25"	"2018"	"2018"	"Male"	"M"	445
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2014"	"2014"	"Female"	"F"	363
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2014"	"2014"	"Male"	"M"	715
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2015"	"2015"	"Female"	"F"	402
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2015"	"2015"	"Male"	"M"	742
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2016"	"2016"	"Female"	"F"	410
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2016"	"2016"	"Male"	"M"	810
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2017"	"2017"	"Female"	"F"	431
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2017"	"2017"	"Male"	"M"	853
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2018"	"2018"	"Female"	"F"	396
+	"Melanoma of the Skin"	"25010"	"Michigan"	"26"	"2018"	"2018"	"Male"	"M"	773
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2014"	"2014"	"Female"	"F"	268
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2014"	"2014"	"Male"	"M"	547
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2015"	"2015"	"Female"	"F"	313
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2015"	"2015"	"Male"	"M"	603
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2016"	"2016"	"Female"	"F"	300
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2016"	"2016"	"Male"	"M"	597
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2017"	"2017"	"Female"	"F"	305
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2017"	"2017"	"Male"	"M"	702
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2018"	"2018"	"Female"	"F"	325
+	"Melanoma of the Skin"	"25010"	"Minnesota"	"27"	"2018"	"2018"	"Male"	"M"	791
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2014"	"2014"	"Female"	"F"	105
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2014"	"2014"	"Male"	"M"	163
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2015"	"2015"	"Female"	"F"	78
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2015"	"2015"	"Male"	"M"	202
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2016"	"2016"	"Female"	"F"	88
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2016"	"2016"	"Male"	"M"	218
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2017"	"2017"	"Female"	"F"	110
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2017"	"2017"	"Male"	"M"	259
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2018"	"2018"	"Female"	"F"	90
+	"Melanoma of the Skin"	"25010"	"Mississippi"	"28"	"2018"	"2018"	"Male"	"M"	217
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2014"	"2014"	"Female"	"F"	186
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2014"	"2014"	"Male"	"M"	470
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2015"	"2015"	"Female"	"F"	223
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2015"	"2015"	"Male"	"M"	467
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2016"	"2016"	"Female"	"F"	241
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2016"	"2016"	"Male"	"M"	404
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2017"	"2017"	"Female"	"F"	212
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2017"	"2017"	"Male"	"M"	459
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2018"	"2018"	"Female"	"F"	205
+	"Melanoma of the Skin"	"25010"	"Missouri"	"29"	"2018"	"2018"	"Male"	"M"	390
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2014"	"2014"	"Female"	"F"	43
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2014"	"2014"	"Male"	"M"	90
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2015"	"2015"	"Female"	"F"	55
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2015"	"2015"	"Male"	"M"	111
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2016"	"2016"	"Female"	"F"	67
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2016"	"2016"	"Male"	"M"	117
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2017"	"2017"	"Female"	"F"	72
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2017"	"2017"	"Male"	"M"	134
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2018"	"2018"	"Female"	"F"	59
+	"Melanoma of the Skin"	"25010"	"Montana"	"30"	"2018"	"2018"	"Male"	"M"	149
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2014"	"2014"	"Female"	"F"	70
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2014"	"2014"	"Male"	"M"	147
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2015"	"2015"	"Female"	"F"	90
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2015"	"2015"	"Male"	"M"	149
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2016"	"2016"	"Female"	"F"	89
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2016"	"2016"	"Male"	"M"	165
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2017"	"2017"	"Female"	"F"	97
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2017"	"2017"	"Male"	"M"	182
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2018"	"2018"	"Female"	"F"	111
+	"Melanoma of the Skin"	"25010"	"Nebraska"	"31"	"2018"	"2018"	"Male"	"M"	199
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2014"	"2014"	"Female"	"F"	79
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2014"	"2014"	"Male"	"M"	170
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2015"	"2015"	"Female"	"F"	75
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2015"	"2015"	"Male"	"M"	143
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2016"	"2016"	"Female"	"F"	97
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2016"	"2016"	"Male"	"M"	230
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2017"	"2017"	"Female"	"F"	126
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2017"	"2017"	"Male"	"M"	296
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2018"	"2018"	"Female"	"F"	Missing
+	"Melanoma of the Skin"	"25010"	"Nevada"	"32"	"2018"	"2018"	"Male"	"M"	Missing
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2014"	"2014"	"Female"	"F"	107
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2014"	"2014"	"Male"	"M"	191
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2015"	"2015"	"Female"	"F"	87
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2015"	"2015"	"Male"	"M"	174
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2016"	"2016"	"Female"	"F"	95
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2016"	"2016"	"Male"	"M"	195
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2017"	"2017"	"Female"	"F"	133
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2017"	"2017"	"Male"	"M"	216
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2018"	"2018"	"Female"	"F"	112
+	"Melanoma of the Skin"	"25010"	"New Hampshire"	"33"	"2018"	"2018"	"Male"	"M"	185
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2014"	"2014"	"Female"	"F"	403
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2014"	"2014"	"Male"	"M"	803
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2015"	"2015"	"Female"	"F"	462
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2015"	"2015"	"Male"	"M"	786
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2016"	"2016"	"Female"	"F"	427
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2016"	"2016"	"Male"	"M"	788
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2017"	"2017"	"Female"	"F"	470
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2017"	"2017"	"Male"	"M"	870
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2018"	"2018"	"Female"	"F"	459
+	"Melanoma of the Skin"	"25010"	"New Jersey"	"34"	"2018"	"2018"	"Male"	"M"	794
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2014"	"2014"	"Female"	"F"	60
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2014"	"2014"	"Male"	"M"	139
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2015"	"2015"	"Female"	"F"	85
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2015"	"2015"	"Male"	"M"	149
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2016"	"2016"	"Female"	"F"	91
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2016"	"2016"	"Male"	"M"	143
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2017"	"2017"	"Female"	"F"	92
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2017"	"2017"	"Male"	"M"	180
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2018"	"2018"	"Female"	"F"	70
+	"Melanoma of the Skin"	"25010"	"New Mexico"	"35"	"2018"	"2018"	"Male"	"M"	167
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2014"	"2014"	"Female"	"F"	812
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2014"	"2014"	"Male"	"M"	1381
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2015"	"2015"	"Female"	"F"	774
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2015"	"2015"	"Male"	"M"	1429
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2016"	"2016"	"Female"	"F"	801
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2016"	"2016"	"Male"	"M"	1419
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2017"	"2017"	"Female"	"F"	798
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2017"	"2017"	"Male"	"M"	1494
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2018"	"2018"	"Female"	"F"	883
+	"Melanoma of the Skin"	"25010"	"New York"	"36"	"2018"	"2018"	"Male"	"M"	1444
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2014"	"2014"	"Female"	"F"	484
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2014"	"2014"	"Male"	"M"	1007
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2015"	"2015"	"Female"	"F"	520
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2015"	"2015"	"Male"	"M"	1053
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2016"	"2016"	"Female"	"F"	503
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2016"	"2016"	"Male"	"M"	1093
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2017"	"2017"	"Female"	"F"	567
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2017"	"2017"	"Male"	"M"	1073
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2018"	"2018"	"Female"	"F"	536
+	"Melanoma of the Skin"	"25010"	"North Carolina"	"37"	"2018"	"2018"	"Male"	"M"	1153
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2014"	"2014"	"Female"	"F"	23
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2014"	"2014"	"Male"	"M"	43
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2015"	"2015"	"Female"	"F"	23
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2015"	"2015"	"Male"	"M"	54
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2016"	"2016"	"Female"	"F"	26
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2016"	"2016"	"Male"	"M"	45
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2017"	"2017"	"Female"	"F"	37
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2017"	"2017"	"Male"	"M"	56
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2018"	"2018"	"Female"	"F"	24
+	"Melanoma of the Skin"	"25010"	"North Dakota"	"38"	"2018"	"2018"	"Male"	"M"	56
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2014"	"2014"	"Female"	"F"	489
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2014"	"2014"	"Male"	"M"	1006
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2015"	"2015"	"Female"	"F"	588
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2015"	"2015"	"Male"	"M"	1031
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2016"	"2016"	"Female"	"F"	617
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2016"	"2016"	"Male"	"M"	1137
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2017"	"2017"	"Female"	"F"	575
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2017"	"2017"	"Male"	"M"	1234
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2018"	"2018"	"Female"	"F"	621
+	"Melanoma of the Skin"	"25010"	"Ohio"	"39"	"2018"	"2018"	"Male"	"M"	1121
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2014"	"2014"	"Female"	"F"	155
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2014"	"2014"	"Male"	"M"	363
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2015"	"2015"	"Female"	"F"	146
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2015"	"2015"	"Male"	"M"	370
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2016"	"2016"	"Female"	"F"	173
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2016"	"2016"	"Male"	"M"	405
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2017"	"2017"	"Female"	"F"	192
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2017"	"2017"	"Male"	"M"	352
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2018"	"2018"	"Female"	"F"	170
+	"Melanoma of the Skin"	"25010"	"Oklahoma"	"40"	"2018"	"2018"	"Male"	"M"	353
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2014"	"2014"	"Female"	"F"	278
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2014"	"2014"	"Male"	"M"	436
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2015"	"2015"	"Female"	"F"	252
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2015"	"2015"	"Male"	"M"	395
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2016"	"2016"	"Female"	"F"	205
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2016"	"2016"	"Male"	"M"	434
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2017"	"2017"	"Female"	"F"	245
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2017"	"2017"	"Male"	"M"	454
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2018"	"2018"	"Female"	"F"	217
+	"Melanoma of the Skin"	"25010"	"Oregon"	"41"	"2018"	"2018"	"Male"	"M"	388
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2014"	"2014"	"Female"	"F"	673
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2014"	"2014"	"Male"	"M"	1338
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2015"	"2015"	"Female"	"F"	701
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2015"	"2015"	"Male"	"M"	1346
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2016"	"2016"	"Female"	"F"	643
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2016"	"2016"	"Male"	"M"	1293
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2017"	"2017"	"Female"	"F"	630
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2017"	"2017"	"Male"	"M"	1209
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2018"	"2018"	"Female"	"F"	669
+	"Melanoma of the Skin"	"25010"	"Pennsylvania"	"42"	"2018"	"2018"	"Male"	"M"	1211
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2014"	"2014"	"Female"	"F"	69
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2014"	"2014"	"Male"	"M"	136
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2015"	"2015"	"Female"	"F"	60
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2015"	"2015"	"Male"	"M"	116
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2016"	"2016"	"Female"	"F"	63
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2016"	"2016"	"Male"	"M"	98
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2017"	"2017"	"Female"	"F"	59
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2017"	"2017"	"Male"	"M"	88
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2018"	"2018"	"Female"	"F"	68
+	"Melanoma of the Skin"	"25010"	"Rhode Island"	"44"	"2018"	"2018"	"Male"	"M"	98
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2014"	"2014"	"Female"	"F"	228
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2014"	"2014"	"Male"	"M"	440
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2015"	"2015"	"Female"	"F"	215
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2015"	"2015"	"Male"	"M"	500
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2016"	"2016"	"Female"	"F"	260
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2016"	"2016"	"Male"	"M"	528
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2017"	"2017"	"Female"	"F"	264
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2017"	"2017"	"Male"	"M"	564
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2018"	"2018"	"Female"	"F"	249
+	"Melanoma of the Skin"	"25010"	"South Carolina"	"45"	"2018"	"2018"	"Male"	"M"	532
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2014"	"2014"	"Female"	"F"	36
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2014"	"2014"	"Male"	"M"	63
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2015"	"2015"	"Female"	"F"	34
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2015"	"2015"	"Male"	"M"	76
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2016"	"2016"	"Female"	"F"	40
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2016"	"2016"	"Male"	"M"	75
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2017"	"2017"	"Female"	"F"	38
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2017"	"2017"	"Male"	"M"	109
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2018"	"2018"	"Female"	"F"	54
+	"Melanoma of the Skin"	"25010"	"South Dakota"	"46"	"2018"	"2018"	"Male"	"M"	97
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2014"	"2014"	"Female"	"F"	222
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2014"	"2014"	"Male"	"M"	482
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2015"	"2015"	"Female"	"F"	273
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2015"	"2015"	"Male"	"M"	534
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2016"	"2016"	"Female"	"F"	261
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2016"	"2016"	"Male"	"M"	564
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2017"	"2017"	"Female"	"F"	278
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2017"	"2017"	"Male"	"M"	568
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2018"	"2018"	"Female"	"F"	258
+	"Melanoma of the Skin"	"25010"	"Tennessee"	"47"	"2018"	"2018"	"Male"	"M"	603
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2014"	"2014"	"Female"	"F"	485
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2014"	"2014"	"Male"	"M"	1176
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2015"	"2015"	"Female"	"F"	519
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2015"	"2015"	"Male"	"M"	1253
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2016"	"2016"	"Female"	"F"	502
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2016"	"2016"	"Male"	"M"	1219
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2017"	"2017"	"Female"	"F"	591
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2017"	"2017"	"Male"	"M"	1371
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2018"	"2018"	"Female"	"F"	568
+	"Melanoma of the Skin"	"25010"	"Texas"	"48"	"2018"	"2018"	"Male"	"M"	1374
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2014"	"2014"	"Female"	"F"	131
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2014"	"2014"	"Male"	"M"	320
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2015"	"2015"	"Female"	"F"	155
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2015"	"2015"	"Male"	"M"	287
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2016"	"2016"	"Female"	"F"	157
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2016"	"2016"	"Male"	"M"	336
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2017"	"2017"	"Female"	"F"	134
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2017"	"2017"	"Male"	"M"	327
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2018"	"2018"	"Female"	"F"	168
+	"Melanoma of the Skin"	"25010"	"Utah"	"49"	"2018"	"2018"	"Male"	"M"	382
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2014"	"2014"	"Female"	"F"	47
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2014"	"2014"	"Male"	"M"	113
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2015"	"2015"	"Female"	"F"	63
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2015"	"2015"	"Male"	"M"	90
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2016"	"2016"	"Female"	"F"	54
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2016"	"2016"	"Male"	"M"	119
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2017"	"2017"	"Female"	"F"	65
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2017"	"2017"	"Male"	"M"	118
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2018"	"2018"	"Female"	"F"	64
+	"Melanoma of the Skin"	"25010"	"Vermont"	"50"	"2018"	"2018"	"Male"	"M"	105
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2014"	"2014"	"Female"	"F"	295
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2014"	"2014"	"Male"	"M"	609
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2015"	"2015"	"Female"	"F"	327
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2015"	"2015"	"Male"	"M"	585
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2016"	"2016"	"Female"	"F"	286
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2016"	"2016"	"Male"	"M"	646
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2017"	"2017"	"Female"	"F"	383
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2017"	"2017"	"Male"	"M"	741
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2018"	"2018"	"Female"	"F"	343
+	"Melanoma of the Skin"	"25010"	"Virginia"	"51"	"2018"	"2018"	"Male"	"M"	769
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2014"	"2014"	"Female"	"F"	326
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2014"	"2014"	"Male"	"M"	629
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2015"	"2015"	"Female"	"F"	362
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2015"	"2015"	"Male"	"M"	644
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2016"	"2016"	"Female"	"F"	369
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2016"	"2016"	"Male"	"M"	660
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2017"	"2017"	"Female"	"F"	443
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2017"	"2017"	"Male"	"M"	727
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2018"	"2018"	"Female"	"F"	400
+	"Melanoma of the Skin"	"25010"	"Washington"	"53"	"2018"	"2018"	"Male"	"M"	756
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2014"	"2014"	"Female"	"F"	77
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2014"	"2014"	"Male"	"M"	140
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2015"	"2015"	"Female"	"F"	68
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2015"	"2015"	"Male"	"M"	152
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2016"	"2016"	"Female"	"F"	83
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2016"	"2016"	"Male"	"M"	182
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2017"	"2017"	"Female"	"F"	107
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2017"	"2017"	"Male"	"M"	202
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2018"	"2018"	"Female"	"F"	98
+	"Melanoma of the Skin"	"25010"	"West Virginia"	"54"	"2018"	"2018"	"Male"	"M"	196
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2014"	"2014"	"Female"	"F"	234
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2014"	"2014"	"Male"	"M"	552
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2015"	"2015"	"Female"	"F"	235
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2015"	"2015"	"Male"	"M"	551
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2016"	"2016"	"Female"	"F"	267
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2016"	"2016"	"Male"	"M"	568
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2017"	"2017"	"Female"	"F"	274
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2017"	"2017"	"Male"	"M"	586
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2018"	"2018"	"Female"	"F"	279
+	"Melanoma of the Skin"	"25010"	"Wisconsin"	"55"	"2018"	"2018"	"Male"	"M"	514
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2014"	"2014"	"Female"	"F"	25
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2014"	"2014"	"Male"	"M"	56
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2015"	"2015"	"Female"	"F"	21
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2015"	"2015"	"Male"	"M"	45
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2016"	"2016"	"Female"	"F"	16
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2016"	"2016"	"Male"	"M"	52
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2017"	"2017"	"Female"	"F"	33
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2017"	"2017"	"Male"	"M"	57
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2018"	"2018"	"Female"	"F"	34
+	"Melanoma of the Skin"	"25010"	"Wyoming"	"56"	"2018"	"2018"	"Male"	"M"	68
+"---"
+"Dataset: United States and Puerto Rico Cancer Statistics, 1999-2018 Incidence"
+"Query Parameters:"
+"Age Groups: 65-69 years; 70-74 years; 75-79 years; 80-84 years; 85+ years"
+"Leading Cancer Sites: Breast; Lung and Bronchus; Melanoma of the Skin"
+"Year: 2014; 2015; 2016; 2017; 2018"
+"Group By: Leading Cancer Sites; States; Year; Sex"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Standard Population: 2000 U.S. Std. Million"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/cancer-v2018.html for more information."
+"---"
+"Query Date: Oct 2, 2022 10:35:43 PM"
+"---"
+"Suggested Citation: United States Cancer Statistics - Incidence: 1999 - 2018, WONDER Online Database. United States Department"
+"of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute; 2021. Accessed at"
+"http://wonder.cdc.gov/cancer-v2018.html on Oct 2, 2022 10:35:43 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Footnotes:
+"1. Data for in situ breast cancers are listed separately and are not included in the ""All Invasive Cancer Sites Combined"" or"
+"""Male and Female Breast"" cancer categories."
+"---"
+Caveats:
+"1. 'Suppressed' is displayed for data values when they must not be provided in order to protect personal privacy. Data is"
+"suppressed if fewer than 16 cases are reported in any one line of the results table. Data for the ""Asian / Pacific Islander"""
+"and ""American Indian or Alaska Native"" race categories are suppressed at the Metropolitan Statistical Area level for"
+"populations less than 50,000 persons. Data are suppressed at the state and Metropolitan Statistical Area level for certain race"
+"and ethnicity groups: 1) ""American Indian or Alaska Native"" race data are suppressed at the state and MSA level for Delaware,"
+"Illinois, Kansas, Kentucky, New Jersey, and New York; 2) ""Asian or Pacific Islander"" race data are suppressed at the state and"
+"MSA level for Delaware, Illinois, Kansas, and Kentucky; 3) ""Hispanic"" ethnicity data are supressed at the state and MSA level"
+"for Delaware, and Kentucky. 4) All combinations of race by ethnicity are supressed at the state and MSA level for Delaware,"
+"Kansas, Kentucky, Pennsylvania, and Massachusetts. More information:"
+"http://wonder.cdc.gov/wonder/help/cancer-v2018.html#Confidentiality."
+"2. 'Missing' is displayed for a combination of states/territories/MSAs and years that did not meet the United States Cancer"
+"Statistics (USCS) publication standard or did not allow permission for their data to be used."
+"3. The ""Show Totals"" checkbox is disabled when data are grouped by Cancer Sites or by Childhood Cancer, because aggregate"
+"values are displayed in the table. Also be aware that charts and maps containing both aggregate and detail data could be"
+"misleading."
+"4. These states are missing data for the indicated year: Arkansas 1999-2000; Mississippi 1999-2002; Nevada 2018; South Dakota"
+"1999-2000."
+"5. Data are from selected statewide and metropolitan area cancer registries that meet data quality criteria. Incidence data"
+"shown for the United States are diagnoses and populations from included registries only."
+"6. Information on primary site, behavior, and histology was coded according to the International Classification of Diseases for"
+"Oncology, Third Edition (ICD-O-3) and categorized according to the revised SEER recodes dated March 1, 2018, which define"
+"standard groupings of primary cancer sites."
+"7. For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from Alabama, Louisiana, Mississippi and"
+"Texas due to Hurricanes Katrina and Rita. CDC WONDER does not include the displaced persons in the 2005 population counts for"
+"these states, nor are these counts included in the summary populations for the affected division, regions or national"
+"population. However, the USCS web site does include these displaced persons in the national population figures for 2005."
