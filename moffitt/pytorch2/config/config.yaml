@@ -1,0 +1,43 @@
+data:
+  path: "../data/model_df.parquet"
+  drop_columns: ["states", "fips", "sex"]
+  cat_cols: ["sex_code", "age_group", "states_abbr"]
+  date_cols: []
+  num_cols: 
+    - "year"
+    - "population"
+    - "real_gdp"
+    - "real_personal_income"
+    - "real_pce"
+    - "gdp"
+    - "personal_income"
+    - "disposable_personal_income"
+    - "pce"
+    - "regional_price_parities"
+    - "n_jobs"
+    - "regional_price_deflator"
+    - "non_smoker_rate"
+  target_cols: ["breast", "lung_and_bronchus", "melanoma_of_the_skin"]
+
+training:
+  test_size: 0.2
+  random_state: 42
+  batch_size: 64
+  max_epochs: 100
+  patience: 10
+
+optuna:
+  n_trials: 15
+  n_epochs_per_trial: 5
+  layer_range: [1, 4]
+  units_range: [16, 256]
+  dropout_range: [0.1, 0.4]
+  lr_range: [0.0001, 0.01]
+
+export:
+  dir: "model_export"
+  weights: "champion_weights.pth"
+  in_scaler: "input_scaler.pkl"
+  tar_scaler: "target_scaler.pkl"
+  cat_encoder: "label_encoders.pkl"
+  metadata: "metadata.json"
