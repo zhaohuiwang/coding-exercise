@@ -1,5 +1,5 @@
 data:
-  path: "../data/model_df.parquet"
+  path: "data/model_df.parquet"
   drop_columns: ["states", "fips", "sex"]
   cat_cols: ["sex_code", "age_group", "states_abbr"]
   date_cols: []
