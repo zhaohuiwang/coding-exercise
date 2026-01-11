@@ -23,23 +23,33 @@ class InputDataset(Dataset):
         return self.cats[idx], self.nums[idx], self.y[idx]
 
 class DynamicModel(nn.Module):
-    def __init__(self, emb_sizes: list[tuple[int, int]], n_numeric: int, n_targets: int, 
-                 hidden_dims: list[int], dropout: float) -> None:
+    def __init__(self, emb_sizes: list[tuple[int, int]], n_numeric: int, n_targets: int, hidden_dims: list[int], dropout: float) -> None:
+        """
+        emb_sizes: List of (num_categories, embedding_size) for each categorical feature.
+        Example: [(5, 3), (10, 4)] → 2 categorical features, first with 5 categories embedded into 3-dim vector, second 10 categories into 4-dim.
+        n_numeric: Number of numeric features.
+        n_targets: Number of outputs the model predicts (multi-target support).
+        hidden_dims: List of hidden layer sizes for the MLP. Example: [128, 64].
+        dropout: Dropout probability.
+        """
         super().__init__()
         self.embeddings: nn.ModuleList = nn.ModuleList([nn.Embedding(c, s) for c, s in emb_sizes])
+        # Total dimension after concatenating all embeddings.
         n_emb: int = sum(s for c, s in emb_sizes)
         
         layers: list[nn.Module] = []
         in_dim: int = n_emb + n_numeric
         for h_dim in hidden_dims:
-            layers.append(nn.Linear(in_dim, h_dim))
+            layers.append(nn.Linear(in_dim, h_dim)) # Fully connect layer
             layers.append(nn.BatchNorm1d(h_dim))
             layers.append(nn.ReLU())
             layers.append(nn.Dropout(dropout))
             in_dim = h_dim
-            
-        self.network: nn.Sequential = nn.Sequential(*layers)
+        
+        # The hidden layers are combined in nn.Sequential. output_layer maps the final hidden layer to n_targets outputs.
+        self.network: nn.Sequential = nn.Sequential(*layers) 
         self.output_layer: nn.Linear = nn.Linear(in_dim, n_targets)
+        # This supports multi-target regression or multi-label classification, depending on the loss function used.
 
     def forward(self, x_cat: torch.Tensor, x_num: torch.Tensor) -> torch.Tensor:
         x_emb: list[torch.Tensor] = [emb(x_cat[:, i]) for i, emb in enumerate(self.embeddings)]
