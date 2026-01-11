@@ -18,6 +18,7 @@ from torch.utils.data import Dataset, DataLoader
 from config.validation_config import ConfigSchema
 from config.model_config import DynamicModel, InputDataset
 
+from utils import find_project_root
 
 # --- LOGGING SETUP ---
 logging.basicConfig(
@@ -30,20 +31,44 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 # --- CORE LOGIC ---
 def prepare_data(cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]:
-    logger.info(f"Loading data from {cfg.data.path}")
-    df: pd.DataFrame = pd.read_parquet(cfg.data.path).drop(columns=cfg.data.drop_columns)
+    """ A data preparation function:
+    - Loads a parquet dataset
+    - Drops specified columns
+    - Fills missing values
+    - Encodes categorical features
+    - Scales numeric features and targets
+
+    Parameters
+    ----------
+    cfg : a Pydantic Model
+
+    Returns
+    -------
+    Tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]
+        Processed dataframe, fitted categorical encoder, fitted feature scaler,
+        fitted target scaler
+    """
+
+    data_path: Path = cfg.data.path
+    data_drop_columns: list[str] = cfg.data.drop_columns
+    data_cat_cols: list[str] = cfg.data.cat_cols
+    data_num_cols: list[str] = cfg.data.num_cols
+    data_target_cols: list[str] = cfg.data.target_cols
+
+
+    df: pd.DataFrame = pd.read_parquet(data_path).drop(columns=data_drop_columns)
     
-    df['population'] = df['population'].fillna(df['population'].median()).astype('float64')
+    df['population'] = df['population'].fillna(df['population'].median()).astype('int')
     df = df.fillna(df.median(numeric_only=True))
 
     cat_enc: OrdinalEncoder = OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)
-    df[cfg.data.cat_cols] = cat_enc.fit_transform(df[cfg.data.cat_cols].astype(str))
+    df[data_cat_cols] = cat_enc.fit_transform(df[data_cat_cols].astype(str))
 
     in_scaler: StandardScaler = StandardScaler()
-    df[cfg.data.num_cols] = in_scaler.fit_transform(df[cfg.data.num_cols])
+    df[data_num_cols] = in_scaler.fit_transform(df[data_num_cols])
 
     tar_scaler: StandardScaler = StandardScaler()
-    df[cfg.data.target_cols] = tar_scaler.fit_transform(df[cfg.data.target_cols])
+    df[data_target_cols] = tar_scaler.fit_transform(df[data_target_cols])
 
     return df, cat_enc, in_scaler, tar_scaler
 
@@ -80,56 +105,27 @@ def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader,
                 v_loss += criterion(model(xc.to(device), xn.to(device)), y.to(device)).item()
         return v_loss / len(val_loader)
     except Exception as e:
-        logger.warning(f"Trial pruned due to error: {e}")
         raise optuna.exceptions.TrialPruned()
-
-# def export_artifacts(
-#     model: nn.Module, 
-#     in_scaler: StandardScaler, 
-#     tar_scaler: StandardScaler, 
-#     cat_enc: OrdinalEncoder, 
-#     cfg: ConfigSchema, 
-#     best_params: dict[str, Any], 
-#     emb_sizes: list[tuple[int, int]]
-# ) -> None:
-#     """
-#     Saves all components required for the Unified Prediction Function.
-#     """
-    
-#     # 1. Save Torch Weights
-#     torch.save(model.state_dict(), export_path / cfg.export['weights'])
-    
-#     # 2. Save Sklearn Objects (Scalers & Encoder)
-#     joblib.dump(in_scaler, export_path / cfg.export['in_scaler'])
-#     joblib.dump(tar_scaler, export_path / cfg.export['tar_scaler'])
-#     joblib.dump(cat_enc, export_path / cfg.export['cat_encoder'])
-    
-#     # 3. Save Metadata (To reconstruct architecture during inference)
-#     metadata: dict[str, Any] = {
-#         "best_params": best_params,
-#         "emb_sizes": emb_sizes,
-#         "num_cols": cfg.data.num_cols,
-#         "cat_cols": cfg.data.cat_cols,
-#         "target_names": cfg.data.target_cols
-#     }
-    
-#     with open(export_path / cfg.export['metadata'], 'w') as f:
-#         json.dump(metadata, f, indent=4)
-        
-#     logger.info(f"Successfully exported all artifacts to {export_path}/")
 
 def main() -> None:
 
-    PROJECT_ROOT: Path = Path(__file__).resolve().parents[1]
+    PROJECT_ROOT: Path = find_project_root(
+        # start=Path(__file__).parent, 
+        dirname="moffitt"
+        )
+
     logger.info(f"Project root: {PROJECT_ROOT}")
 
     # Load and Validate Config
-    with open(PROJECT_ROOT / "config/config.yaml", "r") as f:
+    with open(PROJECT_ROOT / "pytorch2/config/config.yaml", "r") as f:
         cfg_dict: dict[str, Any] = yaml.safe_load(f)
 
     cfg: ConfigSchema = ConfigSchema(**cfg_dict)
-    
-    export_path: Path = PROJECT_ROOT / cfg.export['dir']
+    # update to get the absolute date path
+    cfg.data.path = PROJECT_ROOT / cfg.data.path
+
+
+    export_path: Path = PROJECT_ROOT / 'pytorch2' / cfg.export['dir']
     export_path.mkdir(parents=True, exist_ok=True)
     logger.info(f"Export path is set as: {export_path}/")
 
@@ -204,5 +200,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-# >>> os.chdir(os.getcwd()+"/pytorch2")
