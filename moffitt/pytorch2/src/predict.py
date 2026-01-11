@@ -4,6 +4,7 @@ import sys
 import pandas as pd
 import torch
 import torch.nn as nn
+import yaml
 import joblib
 import json
 import logging
@@ -13,6 +14,9 @@ from typing import Optional, Any
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 
 from config.model_config import DynamicModel
+from config.validation_config import ConfigSchema
+
+from utils import find_project_root
 
 # --- CUSTOM EXCEPTIONS ---
 class InferenceError(Exception):
@@ -86,7 +90,7 @@ def generate_model_prediction(
 
 # --- ASSET LOADING ---
 def load_inference_assets(model_dir: str = "model_export") -> tuple[nn.Module, StandardScaler, StandardScaler, OrdinalEncoder]:
-    logger.info(f"Loading inference assets from {model_dir}")
+
     model_path: Path = Path(model_dir)
     
     try:
@@ -118,46 +122,32 @@ def load_inference_assets(model_dir: str = "model_export") -> tuple[nn.Module, S
         return model, in_scaler, tar_scaler, cat_encoder
     
     except FileNotFoundError as e:
-        logger.error(f"Asset file not found: {e}")
         raise AssetLoadError(f"Required file missing in {model_dir}")
+    
     except Exception as e:
-        logger.error(f"Unexpected error loading assets: {e}")
         raise AssetLoadError(str(e))
 
-# --- EXECUTION ---
-def run_forecast(input_parquet: str, output_csv: str, iterations: int | None = None) -> None:
-    try:
-        model, in_scaler, tar_scaler, cat_encoder = load_inference_assets()
-        
-        new_data: pd.DataFrame = pd.read_parquet(input_parquet)
-        
-        device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        model.to(device)
-        
-        logger.info(f"Generating predictions for {len(new_data)} rows...")
-
-        results_df: pd.DataFrame = generate_model_prediction(
-            new_df=new_data,
-            model=model,
-            in_scaler=in_scaler,
-            tar_scaler=tar_scaler,
-            cat_encoder=cat_encoder,
-            ci_iterations=iterations
-        )
-        
-        output_path: Path = Path(output_csv)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        results_df.to_csv(output_path, index=False)
-        logger.info(f"Success! Predictions saved to {output_csv}")
-
-    except Exception as e:
-        logger.critical(f"Production forecast failed: {e}")
+   
 
 
 def main() -> None:
     """
     Command Line Interface for the Inference Engine.
     """
+
+    PROJECT_ROOT: Path = find_project_root(
+        # start=Path(__file__).parent, 
+        dirname="moffitt"
+        )
+    
+    # Load and Validate Config
+    with open(PROJECT_ROOT / "pytorch2/config/config.yaml", "r") as f:
+        cfg_dict: dict[str, Any] = yaml.safe_load(f)
+
+    cfg: ConfigSchema = ConfigSchema(**cfg_dict)
+    
+    model_dir = PROJECT_ROOT / 'pytorch2' / cfg.export['dir']
+
     parser = argparse.ArgumentParser(
         description="Run 2026 Cancer Prediction Inference Engine.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
@@ -189,19 +179,31 @@ def main() -> None:
 
     # Execute the forecast with CLI arguments
     try:
-        run_forecast(
-            input_parquet=args.input,
-            output_csv=args.output,
-            iterations=args.iterations
+        model, in_scaler, tar_scaler, cat_encoder = load_inference_assets(model_dir)
+            
+        new_data: pd.DataFrame = pd.read_parquet(args.input)
+            
+        device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model.to(device)
+
+        results_df: pd.DataFrame = generate_model_prediction(
+            new_df=new_data,
+            model=model,
+            in_scaler=in_scaler,
+            tar_scaler=tar_scaler,
+            cat_encoder=cat_encoder,
+            ci_iterations=args.iterations
         )
+            
+        output_path: Path = PROJECT_ROOT / args.output
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        results_df.to_csv(output_path, index=False)
+
+        logger.critical(f"Prediction saved to: {output_path}")
+
     except Exception as e:
         logger.critical(f"CLI Execution failed: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
     main()
-
-# run function
-# run_forecast(
-#      input_parquet="../data/model_df.parquet", 
-#      output_csv="forecasts/predictions_2026.csv"
