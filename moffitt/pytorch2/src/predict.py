@@ -26,13 +26,6 @@ class MissingColumnError(InferenceError):
 class AssetLoadError(InferenceError):
     """Assets (pkl/pth) missing."""
 
-# --- LOGGING SETUP ---
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler("inference.log"), logging.StreamHandler()]
-)
-logger: logging.Logger = logging.getLogger("InferenceEngine")
 
 # --- UNIFIED PREDICTION FUNCTION ---    
 def generate_model_prediction(
@@ -140,6 +133,14 @@ def main() -> None:
         dirname="moffitt"
         )
     
+    # --- LOGGING SETUP ---
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[logging.FileHandler(PROJECT_ROOT / "pytorch2/logging"/"training.log"), logging.StreamHandler()]
+    )
+    logger: logging.Logger = logging.getLogger(__name__)
+
     # Load and Validate Config
     with open(PROJECT_ROOT / "pytorch2/config/config.yaml", "r") as f:
         cfg_dict: dict[str, Any] = yaml.safe_load(f)

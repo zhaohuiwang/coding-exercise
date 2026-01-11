@@ -20,14 +20,6 @@ from config.model_config import DynamicModel, InputDataset
 
 from utils import find_project_root
 
-# --- LOGGING SETUP ---
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler("training.log"), logging.StreamHandler()]
-)
-logger: logging.Logger = logging.getLogger(__name__)
-
 
 # --- CORE LOGIC ---
 def prepare_data(cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]:
@@ -113,6 +105,16 @@ def main() -> None:
         # start=Path(__file__).parent, 
         dirname="moffitt"
         )
+    
+    # --- LOGGING SETUP ---
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[logging.FileHandler(PROJECT_ROOT / "pytorch2/logging"/"training.log"), logging.StreamHandler()]
+    )
+    logger: logging.Logger = logging.getLogger(__name__)
+
+
 
     logger.info(f"Project root: {PROJECT_ROOT}")
 
