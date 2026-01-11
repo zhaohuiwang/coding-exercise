@@ -134,12 +134,15 @@ def main() -> None:
         )
     
     # --- LOGGING SETUP ---
+    log_dir = PROJECT_ROOT / "pytorch2" / "logging"
+    log_dir.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[logging.FileHandler(PROJECT_ROOT / "pytorch2/logging"/"training.log"), logging.StreamHandler()]
+        handlers=[logging.FileHandler(log_dir / "predict.log"), logging.StreamHandler()]
     )
     logger: logging.Logger = logging.getLogger(__name__)
+
 
     # Load and Validate Config
     with open(PROJECT_ROOT / "pytorch2/config/config.yaml", "r") as f:

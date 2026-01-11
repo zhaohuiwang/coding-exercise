@@ -22,17 +22,14 @@ from utils import find_project_root
 
 
 # --- CORE LOGIC ---
-def prepare_data(data_path: Path | str, cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]:
+def prepare_data(df: pd.DataFrame, cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]:
     """ A data preparation function:
-    - Loads a parquet dataset
-    - Drops specified columns
-    - Fills missing values
     - Encodes categorical features
     - Scales numeric features and targets
 
     Parameters
     ----------
-    data_path: Path | str
+    df: pd.DataFrame
     cfg : a Pydantic Model
 
     Returns
@@ -42,17 +39,10 @@ def prepare_data(data_path: Path | str, cfg: ConfigSchema) -> tuple[pd.DataFrame
         fitted target scaler
     """
 
-    data_path: Path = cfg.data.path
-    data_drop_columns: list[str] = cfg.data.drop_columns
     data_cat_cols: list[str] = cfg.data.cat_cols
     data_num_cols: list[str] = cfg.data.num_cols
     data_target_cols: list[str] = cfg.data.target_cols
 
-
-    df: pd.DataFrame = pd.read_parquet(data_path).drop(columns=data_drop_columns)
-    
-    df['population'] = df['population'].fillna(df['population'].median()).astype('int')
-    df = df.fillna(df.median(numeric_only=True))
 
     cat_enc: OrdinalEncoder = OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)
     df[data_cat_cols] = cat_enc.fit_transform(df[data_cat_cols].astype(str))
@@ -108,10 +98,12 @@ def main() -> None:
         )
     
     # --- LOGGING SETUP ---
+    log_dir = PROJECT_ROOT / "pytorch2" / "logging"
+    log_dir.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[logging.FileHandler(PROJECT_ROOT / "pytorch2/logging"/"training.log"), logging.StreamHandler()]
+        handlers=[logging.FileHandler(log_dir / "training.log"), logging.StreamHandler()]
     )
     logger: logging.Logger = logging.getLogger(__name__)
 
@@ -133,7 +125,17 @@ def main() -> None:
     logger.info(f"Export path is set as: {export_path}/")
 
     # 1. Prepare Data
-    df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(cfg.data.path, cfg)
+
+    data_path: Path = cfg.data.path
+    data_drop_columns: list[str] = cfg.data.drop_columns
+
+    df: pd.DataFrame = pd.read_parquet(data_path).drop(columns=data_drop_columns)
+
+    
+    df['population'] = df['population'].fillna(df['population'].median()).astype('int')
+    df = df.fillna(df.median(numeric_only=True))
+
+    df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(df, cfg)
 
     # 2. Define Embeddings
     emb_sizes: list[tuple[int, int]] = [
@@ -203,3 +205,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+    
