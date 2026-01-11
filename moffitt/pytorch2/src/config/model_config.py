@@ -23,6 +23,11 @@ class InputDataset(Dataset):
         return self.cats[idx], self.nums[idx], self.y[idx]
 
 class DynamicModel(nn.Module):
+    """ 
+    This model is a dynamic feedforward neural network for tabular data. It can take any number of numeric or categorical (input)features dynamically, process categorical features via embeddings, combine them with numeric features, pass them through a configurable MLP, and predict multiple targets simultaneously.
+    Highly configurable: number of layers, hidden dimensions, dropout, batch normalization.
+    This supports multi-target regression or multi-label classification, depending on the loss function used.
+    """
     def __init__(self, emb_sizes: list[tuple[int, int]], n_numeric: int, n_targets: int, hidden_dims: list[int], dropout: float) -> None:
         """
         emb_sizes: List of (num_categories, embedding_size) for each categorical feature.
@@ -49,7 +54,7 @@ class DynamicModel(nn.Module):
         # The hidden layers are combined in nn.Sequential. output_layer maps the final hidden layer to n_targets outputs.
         self.network: nn.Sequential = nn.Sequential(*layers) 
         self.output_layer: nn.Linear = nn.Linear(in_dim, n_targets)
-        # This supports multi-target regression or multi-label classification, depending on the loss function used.
+        
 
     def forward(self, x_cat: torch.Tensor, x_num: torch.Tensor) -> torch.Tensor:
         x_emb: list[torch.Tensor] = [emb(x_cat[:, i]) for i, emb in enumerate(self.embeddings)]
