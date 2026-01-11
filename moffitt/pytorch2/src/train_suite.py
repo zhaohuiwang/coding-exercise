@@ -22,7 +22,7 @@ from utils import find_project_root
 
 
 # --- CORE LOGIC ---
-def prepare_data(cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]:
+def prepare_data(data_path: Path | str, cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, StandardScaler, StandardScaler]:
     """ A data preparation function:
     - Loads a parquet dataset
     - Drops specified columns
@@ -32,6 +32,7 @@ def prepare_data(cfg: ConfigSchema) -> tuple[pd.DataFrame, OrdinalEncoder, Stand
 
     Parameters
     ----------
+    data_path: Path | str
     cfg : a Pydantic Model
 
     Returns
@@ -132,7 +133,7 @@ def main() -> None:
     logger.info(f"Export path is set as: {export_path}/")
 
     # 1. Prepare Data
-    df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(cfg)
+    df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(cfg.data.path, cfg)
 
     # 2. Define Embeddings
     emb_sizes: list[tuple[int, int]] = [
