@@ -44,8 +44,8 @@ def prepare_data(df: pd.DataFrame, cfg: ConfigSchema) -> tuple[pd.DataFrame, Ord
     data_target_cols: list[str] = cfg.data.target_cols
 
 
-    cat_enc: OrdinalEncoder = OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)
-    df[data_cat_cols] = cat_enc.fit_transform(df[data_cat_cols].astype(str))
+    cat_encoder: OrdinalEncoder = OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)
+    df[data_cat_cols] = cat_encoder.fit_transform(df[data_cat_cols].astype(str))
 
     in_scaler: StandardScaler = StandardScaler()
     df[data_num_cols] = in_scaler.fit_transform(df[data_num_cols])
@@ -53,17 +53,20 @@ def prepare_data(df: pd.DataFrame, cfg: ConfigSchema) -> tuple[pd.DataFrame, Ord
     tar_scaler: StandardScaler = StandardScaler()
     df[data_target_cols] = tar_scaler.fit_transform(df[data_target_cols])
 
-    return df, cat_enc, in_scaler, tar_scaler
+    return df, cat_encoder, in_scaler, tar_scaler
 
 def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader, 
               val_loader: DataLoader, emb_sizes: list[tuple[int, int]], device: torch.device) -> float:
     try:
+        #choose how many hidden layers the network has
         n_layers: int = trial.suggest_int('n_layers', *cfg.optuna.layer_range)
+        # for each layer, choose how many neurons it has
         hidden_dims: list[int] = [
-            trial.suggest_int(f'n_units_l{i}', *cfg.optuna.units_range, log=True) 
+            trial.suggest_categorical(f'n_units_l{i}', cfg.optuna.units_list) 
             for i in range(n_layers)
         ]
         dropout: float = trial.suggest_float('dropout', *cfg.optuna.dropout_range)
+        # syntax: trial.suggest_float(name, low, high, log=False) # Each trial gets a different value
         lr: float = trial.suggest_float('lr', *cfg.optuna.lr_range, log=True)
 
         model: nn.Module = DynamicModel(
@@ -135,7 +138,7 @@ def main() -> None:
     df['population'] = df['population'].fillna(df['population'].median()).astype('int')
     df = df.fillna(df.median(numeric_only=True))
 
-    df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(df, cfg)
+    df_proc, cat_encoder, in_scaler, tar_scaler = prepare_data(df, cfg)
 
     # 2. Define Embeddings
     emb_sizes: list[tuple[int, int]] = [
@@ -185,7 +188,7 @@ def main() -> None:
     # 6.2. Save Sklearn Objects (Scalers & Encoder)
     joblib.dump(in_scaler, export_path / cfg.export.in_scaler)
     joblib.dump(tar_scaler, export_path / cfg.export.tar_scaler)
-    joblib.dump(cat_enc, export_path / cfg.export.cat_encoder)
+    joblib.dump(cat_encoder, export_path / cfg.export.cat_encoder)
 
     # 6.3. Save Metadata (To reconstruct architecture during inference)
     metadata: dict[str, Any] = {

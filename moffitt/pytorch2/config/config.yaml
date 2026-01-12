@@ -30,7 +30,7 @@ optuna:
   n_trials: 15
   n_epochs_per_trial: 5
   layer_range: [1, 4]
-  units_range: [16, 256]
+  units_list: [16, 64, 128, 256]
   dropout_range: [0.1, 0.4]
   lr_range: [0.0001, 0.01]
 

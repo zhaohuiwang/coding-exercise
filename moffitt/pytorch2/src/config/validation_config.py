@@ -26,8 +26,8 @@ class OptunaConfig(BaseModel):
     layer_range: tuple[int, int] = Field(
         ..., description="Min/max number of layers"
     )
-    units_range: tuple[int, int] = Field(
-        ..., description="Min/max hidden units per layer"
+    units_list: list[int] = Field(
+        ..., description="List hidden units per layer"
     )
     dropout_range: tuple[float, float] = Field(
         ..., description="Min/max dropout rate"
@@ -36,7 +36,7 @@ class OptunaConfig(BaseModel):
         ..., description="Min/max learning rate"
     )
 
-    @field_validator("layer_range", "units_range")
+    @field_validator("layer_range")
     @classmethod
     def validate_int_ranges(cls, v):
         lo, hi = v

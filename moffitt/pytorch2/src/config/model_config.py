@@ -60,3 +60,4 @@ class DynamicModel(nn.Module):
         x_emb: list[torch.Tensor] = [emb(x_cat[:, i]) for i, emb in enumerate(self.embeddings)]
         x: torch.Tensor = torch.cat(x_emb + [x_num], dim=1)
         return self.output_layer(self.network(x))
+

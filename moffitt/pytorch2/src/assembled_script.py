@@ -1,45 +1,6 @@
-import pandas as pd
-import numpy as np
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import yaml
-import joblib
-import json
-import logging
-import optuna
+
+
 from pathlib import Path
-from pydantic import BaseModel, Field
-from typing import Any, Optional
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OrdinalEncoder, StandardScaler
-from torch.utils.data import Dataset, DataLoader
-
-from config.validation_config import ConfigSchema
-from config.model_config import DynamicModel, InputDataset
-
-from utils import find_project_root
-
-
-import argparse
-import sys
-
-import pandas as pd
-import torch
-import torch.nn as nn
-import yaml
-import joblib
-import json
-import logging
-import numpy as np
-from pathlib import Path
-from typing import Optional, Any
-from sklearn.preprocessing import OrdinalEncoder, StandardScaler
-
-from config.model_config import DynamicModel
-from config.validation_config import ConfigSchema
-
-from utils import find_project_root
 
 
 def find_project_root(
@@ -151,18 +112,41 @@ with open(yaml_path, 'r') as file:
 import sys
 sys.path.append(str(PROJECT_ROOT / "pytorch2" / "src"))
 
-
-from config.validation_config import DataConfig, TrainConfig, ConfigSchema
-
-from config.model_config import InputDataset, DynamicModel
-
 from train_suite import objective, prepare_data
-
 from predict import load_inference_assets, generate_model_prediction
 
+import argparse
+import sys
 
 from typing import Any
 import pandas as pd
+
+import pandas as pd
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import yaml
+import joblib
+import json
+import logging
+import optuna
+from pathlib import Path
+from pydantic import BaseModel, Field
+from typing import Any, Optional
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OrdinalEncoder, StandardScaler
+from torch.utils.data import Dataset, DataLoader
+
+from config.validation_config import ConfigSchema
+from config.model_config import DynamicModel, InputDataset
+
+import shap
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
 # Load and Validate Config
 with open(PROJECT_ROOT / "pytorch2/config/config.yaml", "r") as f:
         cfg_dict: dict[str, Any] = yaml.safe_load(f)
@@ -184,7 +168,7 @@ df: pd.DataFrame = pd.read_parquet(data_path).drop(columns=data_drop_columns)
     
 df['population'] = df['population'].fillna(df['population'].median()).astype('int')
 df = df.fillna(df.median(numeric_only=True))
-df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(df, cfg)
+df_proc, cat_encoder, in_scaler, tar_scaler = prepare_data(df, cfg)
 
 # 2. Define Embeddings
 emb_sizes: list[tuple[int, int]] = [
@@ -193,8 +177,6 @@ emb_sizes: list[tuple[int, int]] = [
 ]
 
 # 3. Setup DataLoaders
-from sklearn.model_selection import train_test_split
-from torch.utils.data import Dataset, DataLoader
 
 train_df, val_df = train_test_split(df_proc, test_size=cfg.training.test_size, random_state=cfg.training.random_state)
 
@@ -208,10 +190,6 @@ val_loader: DataLoader = DataLoader(
         batch_size=cfg.training.batch_size
     )
 
-import torch.nn as nn
-import torch
-import torch.optim as optim
-import optuna
 
 # 4. Run Optuna Optimization
 device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -241,7 +219,7 @@ torch.save(champion_model.state_dict(), export_path / cfg.export.weights)
 # 6.2. Save Sklearn Objects (Scalers & Encoder)
 joblib.dump(in_scaler, export_path / cfg.export.in_scaler)
 joblib.dump(tar_scaler, export_path / cfg.export.tar_scaler)
-joblib.dump(cat_enc, export_path / cfg.export.cat_encoder)
+joblib.dump(cat_encoder, export_path / cfg.export.cat_encoder)
 
 # 6.3. Save Metadata (To reconstruct architecture during inference)
 metadata: dict[str, Any] = {
@@ -259,23 +237,6 @@ with open(export_path / cfg.export.metadata, 'w') as f:
 
 # predict.py
 
-import argparse
-import sys
-
-import pandas as pd
-import torch
-import torch.nn as nn
-import yaml
-import joblib
-import json
-import logging
-import numpy as np
-from pathlib import Path
-from typing import Optional, Any
-from sklearn.preprocessing import OrdinalEncoder, StandardScaler
-
-# from config.validation_config import ConfigSchema
-# from config.model_config import DynamicModel, InputDataset
 
 # from utils import find_project_root
 
@@ -348,16 +309,12 @@ except Exception as e:
     sys.exit(1)
 
 
-
-
 # Generating the Correlation Heatmap
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # 1. Combine numeric and categorical columns for the analysis
 # We use df_proc which contains the encoded values
 
-df_proc, cat_enc, in_scaler, tar_scaler = prepare_data(df, cfg)
+df_proc, cat_encoder, in_scaler, tar_scaler = prepare_data(df, cfg)
 
 corr_matrix = df_proc.corr()
 
@@ -365,7 +322,7 @@ corr_matrix = df_proc.corr()
 plt.figure(figsize=(12, 10))
 sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap='coolwarm', center=0)
 plt.title("Feature Correlation Matrix")    
-save_path = f'all_feature_correlation_plot.png'
+save_path = f'plots/all_feature_correlation_plot.png'
 plt.savefig(save_path, dpi=300, bbox_inches='tight')
 plt.close()
 
@@ -375,13 +332,10 @@ corr_matrix = corr_matrix.loc[cfg.data.target_cols, ]
 plt.figure(figsize=(12, 3))
 sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap='coolwarm', center=0)
 plt.title("Feature Correlation Matrix")    
-save_path = f'target_feature_correlation_plot.png'
+save_path = f'plots/rget_feature_correlation_plot.png'
 plt.savefig(save_path, dpi=300, bbox_inches='tight')
 plt.close()
 
-
-
-import torch
 
 # Background must come from the training distribution
 # Random sampling (default, usually good enough)
@@ -482,7 +436,6 @@ def model_wrapper(X_numpy):
 X_background = X
 
 
-import shap
 # Create KernelExplainer
 explainer = shap.KernelExplainer(model_wrapper, X_background)
 
