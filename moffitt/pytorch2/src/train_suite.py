@@ -58,13 +58,13 @@ def prepare_data(df: pd.DataFrame, cfg: ConfigSchema) -> tuple[pd.DataFrame, Ord
 def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader, 
               val_loader: DataLoader, emb_sizes: list[tuple[int, int]], device: torch.device) -> float:
     try:
-        n_layers: int = trial.suggest_int('n_layers', *cfg.optuna['layer_range'])
+        n_layers: int = trial.suggest_int('n_layers', *cfg.optuna.layer_range)
         hidden_dims: list[int] = [
-            trial.suggest_int(f'n_units_l{i}', *cfg.optuna['units_range'], log=True) 
+            trial.suggest_int(f'n_units_l{i}', *cfg.optuna.units_range, log=True) 
             for i in range(n_layers)
         ]
-        dropout: float = trial.suggest_float('dropout', *cfg.optuna['dropout_range'])
-        lr: float = trial.suggest_float('lr', *cfg.optuna['lr_range'], log=True)
+        dropout: float = trial.suggest_float('dropout', *cfg.optuna.dropout_range)
+        lr: float = trial.suggest_float('lr', *cfg.optuna.lr_range, log=True)
 
         model: nn.Module = DynamicModel(
             emb_sizes, len(cfg.data.num_cols), len(cfg.data.target_cols), hidden_dims, dropout
@@ -73,7 +73,7 @@ def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader,
         optimizer: optim.Optimizer = optim.Adam(model.parameters(), lr=lr)
         criterion: nn.MSELoss = nn.MSELoss()
 
-        for _ in range(cfg.optuna['n_epochs_per_trial']):
+        for _ in range(cfg.optuna.n_epochs_per_trial):
             model.train()
             for xc, xn, y in train_loader:
                 xc, xn, y = xc.to(device), xn.to(device), y.to(device)
@@ -120,7 +120,7 @@ def main() -> None:
     cfg.data.path = PROJECT_ROOT / cfg.data.path
 
 
-    export_path: Path = PROJECT_ROOT / 'pytorch2' / cfg.export['dir']
+    export_path: Path = PROJECT_ROOT / 'pytorch2' / cfg.export.dir
     export_path.mkdir(parents=True, exist_ok=True)
     logger.info(f"Export path is set as: {export_path}/")
 
@@ -159,7 +159,7 @@ def main() -> None:
     # 4. Run Optuna Optimization
     device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     study: optuna.Study = optuna.create_study(direction='minimize')
-    study.optimize(lambda t: objective(t, cfg, train_loader, val_loader, emb_sizes, device), n_trials=cfg.optuna['n_trials'])
+    study.optimize(lambda t: objective(t, cfg, train_loader, val_loader, emb_sizes, device), n_trials=cfg.optuna.n_trials)
 
     logger.info(f"Optimization finished. Best Params: {study.best_params}")
 
@@ -180,12 +180,12 @@ def main() -> None:
     # Note: For a true production run, you might want to retrain for a few epochs here
 
     # 6.1. Save Torch Weights
-    torch.save(champion_model.state_dict(), export_path / cfg.export['weights'])
+    torch.save(champion_model.state_dict(), export_path / cfg.export.weights)
     
     # 6.2. Save Sklearn Objects (Scalers & Encoder)
-    joblib.dump(in_scaler, export_path / cfg.export['in_scaler'])
-    joblib.dump(tar_scaler, export_path / cfg.export['tar_scaler'])
-    joblib.dump(cat_enc, export_path / cfg.export['cat_encoder'])
+    joblib.dump(in_scaler, export_path / cfg.export.in_scaler)
+    joblib.dump(tar_scaler, export_path / cfg.export.tar_scaler)
+    joblib.dump(cat_enc, export_path / cfg.export.cat_encoder)
 
     # 6.3. Save Metadata (To reconstruct architecture during inference)
     metadata: dict[str, Any] = {
@@ -196,7 +196,7 @@ def main() -> None:
         "target_names": cfg.data.target_cols
     }
     
-    with open(export_path / cfg.export['metadata'], 'w') as f:
+    with open(export_path / cfg.export.metadata, 'w') as f:
         json.dump(metadata, f, indent=4)
         
     logger.info(f"Successfully exported all artifacts to {export_path}/")

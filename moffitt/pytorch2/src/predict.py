@@ -150,7 +150,7 @@ def main() -> None:
 
     cfg: ConfigSchema = ConfigSchema(**cfg_dict)
     
-    model_dir = PROJECT_ROOT / 'pytorch2' / cfg.export['dir']
+    model_dir = PROJECT_ROOT / 'pytorch2' / cfg.export.dir
 
     parser = argparse.ArgumentParser(
         description="Run 2026 Cancer Prediction Inference Engine.",

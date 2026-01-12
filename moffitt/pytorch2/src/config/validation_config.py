@@ -1,5 +1,5 @@
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from typing import Any, Optional
 
 
@@ -19,8 +19,59 @@ class TrainConfig(BaseModel):
     max_epochs: int
     patience: int
 
+class OptunaConfig(BaseModel):
+    n_trials: int = Field(..., ge=1, description="Number of Optuna trials")
+    n_epochs_per_trial: int = Field(..., ge=1, description="Epochs per trial")
+
+    layer_range: tuple[int, int] = Field(
+        ..., description="Min/max number of layers"
+    )
+    units_range: tuple[int, int] = Field(
+        ..., description="Min/max hidden units per layer"
+    )
+    dropout_range: tuple[float, float] = Field(
+        ..., description="Min/max dropout rate"
+    )
+    lr_range: tuple[float, float] = Field(
+        ..., description="Min/max learning rate"
+    )
+
+    @field_validator("layer_range", "units_range")
+    @classmethod
+    def validate_int_ranges(cls, v):
+        lo, hi = v
+        if lo >= hi:
+            raise ValueError("Lower bound must be < upper bound")
+        return v
+
+    @field_validator("dropout_range")
+    @classmethod
+    def validate_dropout(cls, v):
+        lo, hi = v
+        if not (0.0 <= lo < hi <= 1.0):
+            raise ValueError("Dropout range must be within [0, 1]")
+        return v
+
+    @field_validator("lr_range")
+    @classmethod
+    def validate_lr(cls, v):
+        lo, hi = v
+        if lo <= 0 or hi <= 0 or lo >= hi:
+            raise ValueError("Learning rate bounds must be positive and lo < hi")
+        return v
+
+
+class ExportConfig(BaseModel):
+    dir: str = Field(..., min_length=1)
+    weights: str
+    in_scaler: str
+    tar_scaler: str
+    cat_encoder: str
+    metadata: str
+
 class ConfigSchema(BaseModel):
     data: DataConfig
     training: TrainConfig
-    optuna: dict[str, Any]
-    export: dict[str, str]
+    optuna: OptunaConfig
+    export: ExportConfig
+
