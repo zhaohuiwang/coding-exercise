@@ -31,7 +31,7 @@ class AssetLoadError(InferenceError):
 def generate_model_prediction(
     new_df: pd.DataFrame, 
     model: torch.nn.Module, 
-    in_scaler: StandardScaler, 
+    num_scaler: StandardScaler, 
     tar_scaler: StandardScaler, 
     cat_encoder: OrdinalEncoder, 
     ci_iterations: int | None = None
@@ -40,13 +40,13 @@ def generate_model_prediction(
     Unified prediction function [Updated 2026-01-09].
     Incorporates internal scaling and encoding logic for deployment.
     """
-    num_cols: list[str] = in_scaler.feature_names_in_.tolist()
+    num_cols: list[str] = num_scaler.feature_names_in_.tolist()
     cat_cols: list[str] = cat_encoder.feature_names_in_.tolist()
     target_names: list[str] = tar_scaler.feature_names_in_.tolist()
     
     df_proc: pd.DataFrame = new_df.copy()
     df_proc[cat_cols] = cat_encoder.transform(df_proc[cat_cols].astype(str))
-    df_proc[num_cols] = in_scaler.transform(df_proc[num_cols])
+    df_proc[num_cols] = num_scaler.transform(df_proc[num_cols])
     
     device: torch.device = next(model.parameters()).device
     x_cat: torch.Tensor = torch.tensor(df_proc[cat_cols].values, dtype=torch.long).to(device)
@@ -108,11 +108,11 @@ def load_inference_assets(model_dir: str = "model_export") -> tuple[nn.Module, S
         model.eval()
         
         # 4. Load Scalers and Encoders
-        in_scaler: StandardScaler = joblib.load(model_path / 'input_scaler.pkl')
+        num_scaler: StandardScaler = joblib.load(model_path / 'input_scaler.pkl')
         tar_scaler: StandardScaler = joblib.load(model_path / 'target_scaler.pkl')
         cat_encoder: OrdinalEncoder = joblib.load(model_path / 'label_encoders.pkl')
         
-        return model, in_scaler, tar_scaler, cat_encoder
+        return model, num_scaler, tar_scaler, cat_encoder
     
     except FileNotFoundError as e:
         raise AssetLoadError(f"Required file missing in {model_dir}")
@@ -183,7 +183,7 @@ def main() -> None:
 
     # Execute the forecast with CLI arguments
     try:
-        model, in_scaler, tar_scaler, cat_encoder = load_inference_assets(model_dir)
+        model, num_scaler, tar_scaler, cat_encoder = load_inference_assets(model_dir)
             
         new_data: pd.DataFrame = pd.read_parquet(args.input)
             
@@ -193,7 +193,7 @@ def main() -> None:
         results_df: pd.DataFrame = generate_model_prediction(
             new_df=new_data,
             model=model,
-            in_scaler=in_scaler,
+            num_scaler=num_scaler,
             tar_scaler=tar_scaler,
             cat_encoder=cat_encoder,
             ci_iterations=args.iterations
