@@ -18,7 +18,7 @@ from torch.utils.data import Dataset, DataLoader
 from config.validation_config import ConfigSchema
 from config.model_config import DynamicModel, InputDataset
 
-from utils import find_project_root
+from utils import find_project_root, EarlyStopping
 
 
 # --- CORE LOGIC ---
@@ -94,6 +94,10 @@ def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader,
     # Multi-target regression	MSELoss
 
     # Loop
+    # # Early stopping logic
+    # patience = 5
+    # best_val = float("inf")
+    # epochs_no_improve = 0
     for epoch in range(cfg.optuna.n_epochs_per_trial):
         model.train()
         for xc, xn, y in train_loader:
@@ -112,6 +116,14 @@ def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader,
                 v_loss += criterion(model(xc.to(device), xn.to(device)), y.to(device)).item()
 
         val_loss = v_loss / len(val_loader)
+        # # Early stopping logic
+        # if val_loss < best_val:
+        #     best_val = val_loss
+        #     epochs_no_improve = 0
+        # else:
+        #     epochs_no_improve += 1
+        # if epochs_no_improve >= patience:
+        #     break
 
         # Optuna pruning
         trial.report(val_loss, epoch)
