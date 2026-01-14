@@ -73,14 +73,34 @@ class MultiTargetModel(nn.Module):
         super().__init__()
         self.embeddings = nn.ModuleList([nn.Embedding(c, s) for c, s in emb_sizes])
         n_emb = sum(s for c, s in emb_sizes)
+        # self.network = nn.Sequential(
+        #     nn.Linear(n_emb + n_numeric, 128),
+        #     nn.ReLU(),
+        #     nn.Dropout(0.2),
+        #     nn.Linear(128, 64),
+        #     nn.ReLU(),
+        #     nn.Dropout(0.2),
+        #     nn.Linear(64, n_targets)
+
         self.network = nn.Sequential(
             nn.Linear(n_emb + n_numeric, 128),
-            nn.ReLU(),
-            nn.Dropout(0.2),
+            nn.BatchNorm1d(128),
+            nn.GELU(),
+            nn.Dropout(0.30),
+
             nn.Linear(128, 64),
-            nn.ReLU(),
-            nn.Linear(64, n_targets)
+            nn.BatchNorm1d(64),
+            nn.GELU(),
+            nn.Dropout(0.25),
+
+            nn.Linear(64, 32),
+            nn.BatchNorm1d(32),
+            nn.GELU(),
+            nn.Dropout(0.20),
+
+            nn.Linear(32, n_targets)
         )
+
     def forward(self, x_cat, x_num):
         x = torch.cat([emb(x_cat[:, i]) for i, emb in enumerate(self.embeddings)] + [x_num], dim=1)
         return self.network(x)
@@ -98,6 +118,11 @@ df = pd.read_parquet("data/model_df.parquet").drop(columns=["states", "fips", "s
 # Prepare
 df_proc, cat_cols, num_cols, target_cols, cat_encoder, in_scaler, tar_scaler = prepare_data(df)
 emb_sizes = [(df_proc[col].nunique(), min(50, (df_proc[col].nunique() + 1) // 2)) for col in cat_cols]
+
+# Heuristic Embedding Dimensions
+# The older / simpler rule: min(50, (cardinality + 1) // 2)
+# The newer / more aggressive rule: min(600, round(1.6 * cardinality ** 0.56))
+
 
 # >>> cat_cols
 # ['sex_code', 'age_group', 'states_abbr']

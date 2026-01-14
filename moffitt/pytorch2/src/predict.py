@@ -151,6 +151,8 @@ def main() -> None:
     cfg: ConfigSchema = ConfigSchema(**cfg_dict)
     
     model_dir = PROJECT_ROOT / 'pytorch2' / cfg.export.dir
+    if not model_dir.exists():
+        raise AssetLoadError(f"Model directory does not exist: {model_dir}")
 
     parser = argparse.ArgumentParser(
         description="Run 2026 Cancer Prediction Inference Engine.",
@@ -186,6 +188,9 @@ def main() -> None:
         model, in_scaler, tar_scaler, cat_encoder = load_inference_assets(model_dir)
             
         new_data: pd.DataFrame = pd.read_parquet(args.input)
+        assert not new_data.empty, "Input data is empty"
+        assert all(col in new_data.columns for col in in_scaler.feature_names_in_), "Missing numeric columns in input"
+        assert all(col in new_data.columns for col in cat_encoder.feature_names_in_), "Missing categorical columns in input"
             
         device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)

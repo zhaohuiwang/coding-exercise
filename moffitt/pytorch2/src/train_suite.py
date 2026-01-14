@@ -182,6 +182,8 @@ def main() -> None:
 
     df: pd.DataFrame = pd.read_parquet(data_path).drop(columns=data_drop_columns)
 
+    assert not df.empty, "Dataframe is empty after dropping columns"
+
     
     df['population'] = df['population'].fillna(df['population'].median()).astype('int')
     df = df.fillna(df.median(numeric_only=True))
@@ -193,6 +195,7 @@ def main() -> None:
         (int(df_proc[col].nunique()), min(50, (int(df_proc[col].nunique()) + 1) // 2)) 
         for col in cfg.data.cat_cols
     ]
+    assert len(emb_sizes) == len(cfg.data.cat_cols), "Embedding sizes mismatch with categorical columns"
 
     # Heuristic Embedding Dimensions
     # The older / simpler rule: min(50, (cardinality + 1) // 2)
@@ -214,7 +217,15 @@ def main() -> None:
     # 4. Run Optuna Optimization
     device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     study: optuna.Study = optuna.create_study(direction='minimize')
-    study.optimize(lambda t: objective(t, cfg, train_loader, val_loader, emb_sizes, device), n_trials=cfg.optuna.n_trials)
+
+    try:
+        study.optimize(
+            lambda t: objective(t, cfg, train_loader, val_loader, emb_sizes, device),
+            n_trials=cfg.optuna.n_trials
+        )
+    except Exception as e:
+        logger.exception("Optuna optimization failed")
+        raise RuntimeError("Hyperparameter optimization failed") from e
 
     logger.info(f"Optimization finished. Best Params: {study.best_params}")
 

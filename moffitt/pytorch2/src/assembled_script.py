@@ -110,10 +110,7 @@ def find_project_root(
     )
 
 
-PROJECT_ROOT: Path = find_project_root(
-        # start=Path(__file__).parent, 
-        dirname="moffitt"
-        )
+
 
 import sys 
 sys.path.append(str(PROJECT_ROOT / "pytorch2/src"))
