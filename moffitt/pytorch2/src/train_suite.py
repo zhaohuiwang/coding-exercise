@@ -47,51 +47,79 @@ def prepare_data(df: pd.DataFrame, cfg: ConfigSchema) -> tuple[pd.DataFrame, Ord
     cat_encoder: OrdinalEncoder = OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)
     df[data_cat_cols] = cat_encoder.fit_transform(df[data_cat_cols].astype(str))
 
-    in_scaler: StandardScaler = StandardScaler()
-    df[data_num_cols] = in_scaler.fit_transform(df[data_num_cols])
+    num_scaler: StandardScaler = StandardScaler()
+    df[data_num_cols] = num_scaler.fit_transform(df[data_num_cols])
 
     tar_scaler: StandardScaler = StandardScaler()
     df[data_target_cols] = tar_scaler.fit_transform(df[data_target_cols])
 
-    return df, cat_encoder, in_scaler, tar_scaler
+    return df, cat_encoder, num_scaler, tar_scaler
 
 def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader, 
-              val_loader: DataLoader, emb_sizes: list[tuple[int, int]], device: torch.device) -> float:
-    try:
-        #choose how many hidden layers the network has
-        n_layers: int = trial.suggest_int('n_layers', *cfg.optuna.layer_range)
-        # for each layer, choose how many neurons it has
-        hidden_dims: list[int] = [
-            trial.suggest_categorical(f'n_units_l{i}', cfg.optuna.units_list) 
-            for i in range(n_layers)
-        ]
-        dropout: float = trial.suggest_float('dropout', *cfg.optuna.dropout_range)
-        # syntax: trial.suggest_float(name, low, high, log=False) # Each trial gets a different value
-        lr: float = trial.suggest_float('lr', *cfg.optuna.lr_range, log=True)
+              val_loader: DataLoader, emb_sizes: list[tuple[int, int]], device: torch.device, task: str = "regression") -> float:
 
-        model: nn.Module = DynamicModel(
-            emb_sizes, len(cfg.data.num_cols), len(cfg.data.target_cols), hidden_dims, dropout
-        ).to(device)
+    # Sample architecture
+    #choose how many hidden layers the network has
+    n_layers: int = trial.suggest_int('n_layers', *cfg.optuna.layer_range)
+    # for each layer, choose how many neurons it has
+    hidden_dims: list[int] = [
+        trial.suggest_categorical(f'n_units_l{i}', cfg.optuna.units_list) for i in range(n_layers)
+    ]
+    dropout: float = trial.suggest_float('dropout', *cfg.optuna.dropout_range)
+    # syntax: trial.suggest_float(name, low, high, log=False) # Each trial gets a different value
+
+    # Model
+    model: nn.Module = DynamicModel(
+        emb_sizes, len(cfg.data.num_cols), len(cfg.data.target_cols), hidden_dims, dropout).to(device)
         
-        optimizer: optim.Optimizer = optim.Adam(model.parameters(), lr=lr)
-        criterion: nn.MSELoss = nn.MSELoss()
+    # Optimizer
+    optimizer_name = trial.suggest_categorical("optimizer", ["Adam", "SGD", "RMSprop"])
 
-        for _ in range(cfg.optuna.n_epochs_per_trial):
-            model.train()
-            for xc, xn, y in train_loader:
-                xc, xn, y = xc.to(device), xn.to(device), y.to(device)
-                optimizer.zero_grad()
-                criterion(model(xc, xn), y).backward()
-                optimizer.step()
+    lr = trial.suggest_float("lr", 1e-5, 1e-1, log=True)
+
+    if optimizer_name == "Adam":
+        optimizer = optim.Adam(model.parameters(), lr=lr)
+    elif optimizer_name == "SGD":
+        optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9)
+    else:
+        optimizer = optim.RMSprop(model.parameters(), lr=lr)
+
+    # Loss
+    criterion = (
+        nn.MSELoss() if task == "regression" else nn.BCEWithLogitsLoss()
+        )
+    # Task type	                Correct loss
+    # Multi-class (1 label)     CrossEntropyLoss
+    # Multi-label	            BCEWithLogitsLoss
+    # Multi-target regression	MSELoss
+
+    # Loop
+    for epoch in range(cfg.optuna.n_epochs_per_trial):
+        model.train()
+        for xc, xn, y in train_loader:
+            # Matches the model and dataloader architecture
+            xc, xn, y = xc.to(device), xn.to(device), y.to(device)
+            optimizer.zero_grad()
+            # model(xc, xn) not model(x)
+            loss = criterion(model(xc, xn), y)
+            loss.backward()
+            optimizer.step()
 
         model.eval()
         v_loss: float = 0.0
         with torch.no_grad():
             for xc, xn, y in val_loader:
                 v_loss += criterion(model(xc.to(device), xn.to(device)), y.to(device)).item()
-        return v_loss / len(val_loader)
-    except Exception as e:
-        raise optuna.exceptions.TrialPruned()
+
+        val_loss = v_loss / len(val_loader)
+
+        # Optuna pruning
+        trial.report(val_loss, epoch)
+        if trial.should_prune():
+            raise optuna.exceptions.TrialPruned()
+        
+    return val_loss
+    
 
 def main() -> None:
 
@@ -103,13 +131,13 @@ def main() -> None:
     # --- LOGGING SETUP ---
     log_dir = PROJECT_ROOT / "pytorch2" / "logging"
     log_dir.mkdir(parents=True, exist_ok=True)
+
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[logging.FileHandler(log_dir / "training.log"), logging.StreamHandler()]
     )
     logger: logging.Logger = logging.getLogger(__name__)
-
 
 
     logger.info(f"Project root: {PROJECT_ROOT}")
@@ -119,6 +147,7 @@ def main() -> None:
         cfg_dict: dict[str, Any] = yaml.safe_load(f)
 
     cfg: ConfigSchema = ConfigSchema(**cfg_dict)
+
     # update to get the absolute date path
     cfg.data.path = PROJECT_ROOT / cfg.data.path
 
@@ -138,7 +167,7 @@ def main() -> None:
     df['population'] = df['population'].fillna(df['population'].median()).astype('int')
     df = df.fillna(df.median(numeric_only=True))
 
-    df_proc, cat_encoder, in_scaler, tar_scaler = prepare_data(df, cfg)
+    df_proc, cat_encoder, num_scaler, tar_scaler = prepare_data(df, cfg)
 
     # 2. Define Embeddings
     emb_sizes: list[tuple[int, int]] = [
@@ -186,7 +215,7 @@ def main() -> None:
     torch.save(champion_model.state_dict(), export_path / cfg.export.weights)
     
     # 6.2. Save Sklearn Objects (Scalers & Encoder)
-    joblib.dump(in_scaler, export_path / cfg.export.in_scaler)
+    joblib.dump(num_scaler, export_path / cfg.export.in_scaler)
     joblib.dump(tar_scaler, export_path / cfg.export.tar_scaler)
     joblib.dump(cat_encoder, export_path / cfg.export.cat_encoder)
 
