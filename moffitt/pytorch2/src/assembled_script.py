@@ -221,7 +221,7 @@ x_num: torch.Tensor = torch.tensor(df_proc[num_cols].values, dtype=torch.float32
 # Convert DataFrame to numpy array
 X = np.concatenate([x_cat.numpy(), x_num.numpy()], axis=1)
 
-# Wrapper for KernelExplainer
+# Wrapper for KernelExplainer - wrap two input tensors into the model so it matches the SHAP syntax 
 def model_wrapper(X_numpy):
     x_cat_t = torch.tensor(X_numpy[:, :3], dtype=torch.long)
     x_num_t = torch.tensor(X_numpy[:, 3:], dtype=torch.float)

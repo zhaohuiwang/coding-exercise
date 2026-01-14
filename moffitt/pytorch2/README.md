@@ -21,7 +21,7 @@ Modify `config.yaml` to define your input features and target columns. This file
 ### 2. Training & Optimization
 Run the training suite to find the best hyperparameters and export the model:
 ```bash
-...coding-exercise/moffitt/pytorch2$ python3 train_suite.py
+...coding-exercise/moffitt/$ python3 pytorch2/src/train_suite.py
 ```
 ### 3. Start the Training/Optimization
 ```bash
@@ -32,6 +32,8 @@ docker-compose run predictor
 ### 4. Prediction
 Run the predict to regenrate model outputs. If you like to get a confident interval, specify the number of iterations in the cummand:
 ```bash
-python3 predict.py -i ../data/model_df.parquet -it 200
-python3 predict.py -i ../data/model_df.parquet
+python3 pytorch2/src/predict.py -i data/model_df.parquet -it 200
+python3 pytorch2/src/predict.py -i data/model_df.parquet
 ```
+
+pytorch2/src/predict.py

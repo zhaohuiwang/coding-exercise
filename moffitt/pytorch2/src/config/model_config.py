@@ -61,3 +61,6 @@ class DynamicModel(nn.Module):
         x: torch.Tensor = torch.cat(x_emb + [x_num], dim=1)
         return self.output_layer(self.network(x))
 
+# Heuristic Embedding Dimensions
+# The older / simpler rule: min(50, (cardinality + 1) // 2)
+# The newer / more aggressive rule: min(600, round(1.6 * cardinality ** 0.56))

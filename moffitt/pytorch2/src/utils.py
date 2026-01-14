@@ -42,35 +42,28 @@ def find_project_root(
 
     Returns
     -------
-    Path
-        The resolved absolute path of the detected project root directory.
+    Path - The resolved absolute path of the detected project root directory.
 
     Raises
     ------
-    ValueError
-        If neither `markers` nor `dirname` is provided.
+    ValueError - If neither `markers` nor `dirname` is provided.
 
-    FileNotFoundError
-        If no matching project root is found before reaching the filesystem
-        root.
+    FileNotFoundError - If no matching project root is found before reaching the filesystem root.
 
     Examples
     --------
     Find project root using marker files:
-
     >>> find_project_root(markers=("pyproject.toml", ".git"))
 
     Find project root using directory name:
-
     >>> find_project_root(dirname="my_project")
 
     Hybrid search (recommended):
-
     >>> find_project_root(
-    ...     start=Path(__file__).parent,
-    ...     dirname="my_project",
-    ...     markers=("pyproject.toml", ".git")
-    ... )
+            start=Path(__file__).parent,
+            dirname="my_project",
+            markers=("pyproject.toml", ".git")
+        )
     """
     if not markers and not dirname:
         raise ValueError("Provide at least one of `markers` or `dirname`")
@@ -93,9 +86,6 @@ def find_project_root(
     )
 
 
-
-from pathlib import Path
-
 class EarlyStopping:
     def __init__(
             self,
@@ -106,13 +96,26 @@ class EarlyStopping:
             path: str | Path ='best_model.pth'
             ):
         """
-        EarlyStopping if placed to the end of each epoch cycle, monitors val_loss (evaluation loss) in each epoch (or set of epochs through DataLoader). When the creteria defined by patience and delta is met, early_stop is set to True to signal the break in the epoch iteration. save_checkpoint() is optional and maybe removed.   
+        EarlyStopping if place to the end of each epoch cycle, monitors val_loss (validation loss) in each epoch (or set of epochs through DataLoader). When the criteria defined by patience and delta is met, early_stop is set to True to signal the break in the epoch iteration. save_checkpoint() is optional and maybe removed.   
         Args:
-        patience (int): How many epochs with no improvement the model should wait before stopping.
-            verbose (bool): If True, prints a message for each validation loss improvement. 
-            delta (float): Minimum change in the monitored quantity to qualify as an improvement.
-            save_model (bool): Whether to save the model.
-            path (str | Path): Path for the checkpoint to be saved to.
+            patience (int): Number of epochs with no improvement before stopping.
+            verbose (bool): If True, prints messages on improvement.
+            delta (float): Minimum change to qualify as an improvement.
+            save_model (bool): Whether to save the best model.
+            path (str | Path): Path to save the model checkpoint.
+
+        Example:
+        early_stopping = EarlyStopping(patience=3)
+        for epoch in range(cfg.optuna.n_epochs_per_trial):
+            model.train()
+            ...
+            model.eval()
+            ...
+            val_loss = ...
+            early_stopping(val_loss, model)
+            if early_stopping.early_stop:
+                break
+        
         """
         self.patience = patience
         self.verbose = verbose
@@ -122,10 +125,10 @@ class EarlyStopping:
         self.val_loss_min = np.inf
         self.delta = delta
         self.save_model = save_model
-        self.path = path
+        self.path = Path(path)
 
     def __call__(self, val_loss, model):
-        score = -val_loss
+        score = - val_loss # lower val_loss is better
 
         if self.best_score is None:
             self.best_score = score
@@ -143,9 +146,11 @@ class EarlyStopping:
                 self.save_checkpoint(model, val_loss)
             self.counter = 0
 
-    def save_checkpoint(self, val_loss, model):
+    def save_checkpoint(self, model, val_loss):
         '''Saves model when validation loss decrease.'''
         if self.verbose:
-            print(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
+            print(f"Validation loss decreased"
+                  f"({self.val_loss_min:.6f} --> {val_loss:.6f})."
+                  "Saving model ...")
         torch.save(model.state_dict(), self.path)
         self.val_loss_min = val_loss
