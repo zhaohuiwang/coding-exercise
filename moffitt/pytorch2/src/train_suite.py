@@ -94,10 +94,13 @@ def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader,
     # Multi-target regression	MSELoss
 
     # Loop
-    # # Early stopping logic
+    # # Early stopping logic - simple code
     # patience = 5
     # best_val = float("inf")
     # epochs_no_improve = 0
+    # # Early stopping logic - from a class
+    early_stopping = EarlyStopping(patience=3)
+
     for epoch in range(cfg.optuna.n_epochs_per_trial):
         model.train()
         for xc, xn, y in train_loader:
@@ -125,7 +128,11 @@ def objective(trial: optuna.Trial, cfg: ConfigSchema, train_loader: DataLoader,
         # if epochs_no_improve >= patience:
         #     break
 
-        # Optuna pruning
+        early_stopping(val_loss, model)
+        if early_stopping.early_stop:
+            break
+
+        # Optuna pruning (highly recommended) - stops bad trials automatically
         trial.report(val_loss, epoch)
         if trial.should_prune():
             raise optuna.exceptions.TrialPruned()
@@ -186,6 +193,10 @@ def main() -> None:
         (int(df_proc[col].nunique()), min(50, (int(df_proc[col].nunique()) + 1) // 2)) 
         for col in cfg.data.cat_cols
     ]
+
+    # Heuristic Embedding Dimensions
+    # The older / simpler rule: min(50, (cardinality + 1) // 2)
+    # The newer / more aggressive rule: min(600, round(1.6 * cardinality ** 0.56))
 
     # 3. Setup DataLoaders
     train_df, val_df = train_test_split(df_proc, test_size=cfg.training.test_size, random_state=cfg.training.random_state)
