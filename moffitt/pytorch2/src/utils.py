@@ -1,6 +1,8 @@
 
-
+import numpy as np
 from pathlib import Path
+import torch
+
 
 def find_project_root(
     start: Path | None = None,
@@ -89,3 +91,61 @@ def find_project_root(
         f"Project root not found starting from {start} "
         f"(dirname={dirname}, markers={markers})"
     )
+
+
+
+from pathlib import Path
+
+class EarlyStopping:
+    def __init__(
+            self,
+            patience: int=7,
+            verbose: bool=False,
+            delta: float=0,
+            save_model: bool=False,
+            path: str | Path ='best_model.pth'
+            ):
+        """
+        EarlyStopping if placed to the end of each epoch cycle, monitors val_loss (evaluation loss) in each epoch (or set of epochs through DataLoader). When the creteria defined by patience and delta is met, early_stop is set to True to signal the break in the epoch iteration. save_checkpoint() is optional and maybe removed.   
+        Args:
+        patience (int): How many epochs with no improvement the model should wait before stopping.
+            verbose (bool): If True, prints a message for each validation loss improvement. 
+            delta (float): Minimum change in the monitored quantity to qualify as an improvement.
+            save_model (bool): Whether to save the model.
+            path (str | Path): Path for the checkpoint to be saved to.
+        """
+        self.patience = patience
+        self.verbose = verbose
+        self.counter = 0
+        self.best_score = None
+        self.early_stop = False
+        self.val_loss_min = np.inf
+        self.delta = delta
+        self.save_model = save_model
+        self.path = path
+
+    def __call__(self, val_loss, model):
+        score = -val_loss
+
+        if self.best_score is None:
+            self.best_score = score
+            if self.save_model:
+                self.save_checkpoint(model, val_loss)
+        elif score < self.best_score + self.delta:
+            self.counter += 1
+            if self.verbose:
+                print(f'EarlyStopping counter: {self.counter} out of {self.patience}')
+            if self.counter >= self.patience:
+                self.early_stop = True
+        else:
+            self.best_score = score
+            if self.save_model:
+                self.save_checkpoint(model, val_loss)
+            self.counter = 0
+
+    def save_checkpoint(self, val_loss, model):
+        '''Saves model when validation loss decrease.'''
+        if self.verbose:
+            print(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
+        torch.save(model.state_dict(), self.path)
+        self.val_loss_min = val_loss
