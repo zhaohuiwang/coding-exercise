@@ -1,6 +1,7 @@
 
 from pydantic import BaseModel, Field, field_validator
-from typing import Any, Optional
+from typing import Annotated
+
 
 
 # --- CONFIG VALIDATION SCHEMA ---
@@ -20,21 +21,37 @@ class TrainConfig(BaseModel):
     patience: int
 
 class OptunaConfig(BaseModel):
-    n_trials: int = Field(..., ge=1, description="Number of Optuna trials")
-    n_epochs_per_trial: int = Field(..., ge=1, description="Epochs per trial")
+    # n_trials: int = Field(..., ge=1, description="Number of Optuna trials")
+    # n_epochs_per_trial: int = Field(..., ge=1, description="Epochs per trial")
 
-    layer_range: tuple[int, int] = Field(
-        ..., description="Min/max number of layers"
-    )
-    units_list: list[int] = Field(
-        ..., description="List hidden units per layer"
-    )
-    dropout_range: tuple[float, float] = Field(
-        ..., description="Min/max dropout rate"
-    )
-    lr_range: tuple[float, float] = Field(
-        ..., description="Min/max learning rate"
-    )
+    # layer_range: tuple[int, int] = Field(
+    #     ..., description="Min/max number of layers"
+    # )
+    # units_list: list[int] = Field(
+    #     ..., description="List hidden units per layer"
+    # )
+    # dropout_range: tuple[float, float] = Field(
+    #     ..., description="Min/max dropout rate"
+    # )
+    # lr_range: tuple[float, float] = Field(
+    #     ..., description="Min/max learning rate"
+    # )
+
+    # Alternative using Annotated from typing - Behavior identical, Preferred! 
+    n_trials: Annotated[int, Field(..., ge=1, description="Number of Optuna trials")]
+    n_epochs_per_trial: Annotated[int, Field(..., ge=1, description="Epochs per trial")]
+    layer_range: Annotated[tuple[int, int], Field(..., description="Min/max number of layers")]
+
+    units_list: Annotated[list[int], Field(..., description="List of hidden units per layer")]
+
+    dropout_range: Annotated[tuple[float, float], Field(..., description="Min/max dropout rate")]
+    lr_range: Annotated[tuple[float, float], Field(..., description="Min/max learning rate")]
+
+   
+    
+
+
+    # Note: Field is appropriate for simple type & bounds checks (ge, le), metadata (description), and required values (...). For custom logic, cross-element validation, and complex rules (lo < hi, positive ranges, etc.), we need @field_validator().
 
     @field_validator("layer_range")
     @classmethod
@@ -61,6 +78,7 @@ class OptunaConfig(BaseModel):
         return v
 
 
+
 class ExportConfig(BaseModel):
     dir: str = Field(..., min_length=1)
     weights: str
@@ -75,3 +93,48 @@ class ConfigSchema(BaseModel):
     optuna: OptunaConfig
     export: ExportConfig
 
+
+"""
+# Options: organize the constraints using Annotated from typing
+class OptunaConfig(BaseModel):
+    n_trials: Annotated[
+        int,
+        Field(..., ge=1, description="Number of Optuna trials")
+    ]
+    n_epochs_per_trial: Annotated[
+        int,
+        Field(..., ge=1, description="Epochs per trial")
+    ]
+    layer_range: Annotated[
+        tuple[int, int],
+        Field(..., description="Min/max number of layers")
+    ]
+    # ...
+
+Field() is a function that lets you attach extra metadata and validation rules to a field — things that you cannot express just by writing the type annotation.
+Field(...) or Field(default=...) the three dots ... (Ellipsis) indicates that the field is required and has no default value. The value must be provided when creating an instance of the model.
+
+Annotated[BaseType, metadata, more_metadata, ...], e.g. Annotated[str, Field(...)] is used to combine type hints with Field(...) to provide rich metadata and validation rules for Pydantic model fields. where type checkers will just see the base type (str in this case) and ignore the metadata. Pydantic, however, will process the metadata to enforce validation.
+
+# General Project Structure
+
+
+├── config
+│   └── config.yaml
+├── ConfigSchema
+    └── validation_config.py
+
+
+# Load and Validate Config
+with open("config/config.yaml", "r") as file:
+    try:
+        cfg_dict: dict[str, Any] = yaml.safe_load(f)
+        cfg: ConfigSchema = ConfigSchema(**cfg_dict) # Manual instantiation
+        print(cfg.data.host)
+    except ValidationError as e:
+        print("Invalid configuration file", e.json())
+
+# Use validated config anywhere in the script, e.g.
+data_path = cfg.data.path
+
+"""

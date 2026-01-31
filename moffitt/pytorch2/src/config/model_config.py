@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from pathlib import Path
-from typing import Any, Optional
+
 
 from torch.utils.data import Dataset
 
