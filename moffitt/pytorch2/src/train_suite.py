@@ -1,3 +1,4 @@
+
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -13,10 +14,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from torch.utils.data import DataLoader
 
-from config.validation_config import ConfigSchema
-from config.model_config import DynamicModel, InputDataset
-
-from utils import find_project_root, EarlyStopping
+from .config.validation_config import ConfigSchema
+from .config.model_config import DynamicModel, InputDataset
+from .utils import find_project_root, EarlyStopping
 
 
 # --- CORE LOGIC ---
@@ -270,5 +270,3 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-
-    

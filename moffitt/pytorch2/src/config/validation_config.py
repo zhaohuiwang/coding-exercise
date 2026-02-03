@@ -95,21 +95,14 @@ class ConfigSchema(BaseModel):
 
 
 """
+# Pydantic: Takes untrusted data (JSON, dicts, env vars, API input); Reads your type hints; Validates, coerces, or rejects data at runtime.
+
+Pydantic is 100% runtime.
+Typing works only if you run a type checker (or your IDE runs one for you). Python itself does not enforce types.
+Typing = promises; Pydantic = enforcement
+
 # Options: organize the constraints using Annotated from typing
 class OptunaConfig(BaseModel):
-    n_trials: Annotated[
-        int,
-        Field(..., ge=1, description="Number of Optuna trials")
-    ]
-    n_epochs_per_trial: Annotated[
-        int,
-        Field(..., ge=1, description="Epochs per trial")
-    ]
-    layer_range: Annotated[
-        tuple[int, int],
-        Field(..., description="Min/max number of layers")
-    ]
-    # ...
 
 Field() is a function that lets you attach extra metadata and validation rules to a field — things that you cannot express just by writing the type annotation.
 Field(...) or Field(default=...) the three dots ... (Ellipsis) indicates that the field is required and has no default value. The value must be provided when creating an instance of the model.

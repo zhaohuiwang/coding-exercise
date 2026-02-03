@@ -13,10 +13,10 @@ from pathlib import Path
 from typing import Optional, Any
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 
-from config.model_config import DynamicModel
-from config.validation_config import ConfigSchema
+from .config.model_config import DynamicModel
+from .config.validation_config import ConfigSchema
 
-from utils import find_project_root
+from .utils import find_project_root
 
 # --- CUSTOM EXCEPTIONS ---
 class InferenceError(Exception):
